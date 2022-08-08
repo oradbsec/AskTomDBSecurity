@@ -1,3 +1,57 @@
 
+# AskTom Database Security Office Hours
+# 
+# Back to Basics - database roles
+#
+# July 13, 2022
+# Richard C. Evans
+# Database Security Product Management
+
+
+## I have a question I don't want to ask in the pubic forum. 
+
+If you'd like to ask your question privately, please email me at richard.c.evans@oracle.com 
+
+## Where do I find the recordings? 
+
+After the session, they will be posted to AskTom DB Security Office Hours: bit.ly/asktomdbsec
+
+## Critical Patches
+
+For Critical Patch Updates, Security Alerts, and Bulletins for all Oracle products please see: https://www.oracle.com/security-alerts
+
+## Support Corner
+
+Related MOS notes:
+
+
+
+Related documentation: 
+
+
+## Some of the latest blog posts available at blogs.oracle.com/cloudsecurity
+
+Five reasons to upgrade to Oracle Audit Vault and Database Firewall (AVDF) 20.7: https://blogs.oracle.com/cloudsecurity/post/five-reasons-to-upgrade-oracle-audit-vault-db-firewall
+
+Oracle Autonomous Database users can now be authenticated and managed with Azure Active Directory: https://blogs.oracle.com/cloudsecurity/post/azure-active-directory-can-authenticate-database-users
+
+Unified Auditing Certified with EBS 12.2 – Parts I & II: https://blogs.oracle.com/cloudsecurity/post/unified-auditing-certified-with-ebs-122-part-i
+https://blogs.oracle.com/cloudsecurity/post/unified-auditing-certified-with-ebs-122-part-ii
+
+Announcing Oracle Key Vault 21.4 with Enhanced Operational Security and More: https://blogs.oracle.com/cloudsecurity/post/oracle-key-vault-214-with-enhanced-operational-security
+
+## Oracle CloudWorld
+
+Being held in Las Vegas, NV, October 16-20, 2022
+For more information please see: https://www.oracle.com/cloudworld/
+
+Join us for our database-security related sessions! More information to follow. 
+
+## Multi-Cloud: 
+
+Get Azure AD tokens by using the Microsoft Authentication Library: https://docs.microsoft.com/en-us/azure/databricks/dev-tools/api/latest/aad/app-aad-token
+
+
+
 
 
