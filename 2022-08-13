@@ -47,9 +47,11 @@ For more information please see: https://www.oracle.com/cloudworld/
 
 Join us for our database-security related sessions! More information to follow. 
 
-## Multi-Cloud: 
+## Multi-Cloud Security - Oracle Database and Azure Active Directory integration
 
 Get Azure AD tokens by using the Microsoft Authentication Library: https://docs.microsoft.com/en-us/azure/databricks/dev-tools/api/latest/aad/app-aad-token
+
+Java Web Token Debugger: jwt.io
 
 
 
