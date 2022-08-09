@@ -20,6 +20,14 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 
 For Critical Patch Updates, Security Alerts, and Bulletins for all Oracle products please see: https://www.oracle.com/security-alerts
 
+Fleet Patching and Provisioning: https://docs.oracle.com/en/database/oracle/oracle-database/19/cwadd/rapid-home-provisioning.html
+
+## Product Updates
+
+Dat Safe - additional events for data discovery and sensitive data discovery: https://www.oracle.com/security/database-security/data-safe/
+
+Oracle Data Guard Redo Decryption for Hybrid Disaster Recovery Configurations: https://blogs.oracle.com/maa/post/introducing-dg-redo-decrypt-for-hybrid-cloud
+
 ## Support Corner
 
 Updates to Oracle Database Security 19c: https://docs.oracle.com/en/database/oracle/oracle-database/19/dbseg/release-changes.html#GUID-E565C8A5-6DD5-46DF-9E71-250B775E0C59
