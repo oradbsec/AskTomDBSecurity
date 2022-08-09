@@ -1,7 +1,5 @@
 
-# AskTom Database Security Office Hours
-# 
-## Oracle Database and Azure Active Directory integration
+# Oracle Database and Azure Active Directory integration
 
 
 ## I have a question I don't want to ask in the pubic forum. 
