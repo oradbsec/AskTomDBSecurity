@@ -1,16 +1,12 @@
 
 # AskTom Database Security Office Hours
 # 
-# Back to Basics - database roles
-#
-# July 13, 2022
-# Richard C. Evans
-# Database Security Product Management
+## Oracle Database and Azure Active Directory integration
 
 
 ## I have a question I don't want to ask in the pubic forum. 
 
-If you'd like to ask your question privately, please email me at richard.c.evans@oracle.com 
+If you'd like to ask your question privately, please email me at richard c evans at oracle
 
 ## Where do I find the recordings? 
 
