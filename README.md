@@ -7,3 +7,4 @@ All links shared are available either public or available to Oracle customers wi
 
 To subscribe to AskTom DB Security Office Hours, please visit https://bit.ly/asktomdbsec
 
+
