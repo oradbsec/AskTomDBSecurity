@@ -18,7 +18,7 @@ Fleet Patching and Provisioning: https://docs.oracle.com/en/database/oracle/orac
 
 ## Product Updates
 
-Dat Safe - additional events for data discovery and sensitive data discovery: https://www.oracle.com/security/database-security/data-safe/
+Data Safe - additional events for data discovery and sensitive data discovery: https://www.oracle.com/security/database-security/data-safe/
 
 Oracle Data Guard Redo Decryption for Hybrid Disaster Recovery Configurations: https://blogs.oracle.com/maa/post/introducing-dg-redo-decrypt-for-hybrid-cloud
 
