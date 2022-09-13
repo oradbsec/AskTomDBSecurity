@@ -17,10 +17,10 @@ Fleet Patching and Provisioning: https://docs.oracle.com/en/database/oracle/orac
 
 ## Support and Documentation
 
-Doc ID 2092683.1: Audit Vault and Database Firewall Best Practices and Sizing Calculator
-Doc ID 1328209.1: Oracle Audit Vault and Database Firewall Bundle Patch Reference
-Doc ID 1593059.1: Audit Vault and Database Firewall : Frequently Asked Questions
-Doc ID 1681969.2: Oracle Audit Vault and Database Firewall
+- Doc ID 2092683.1: Audit Vault and Database Firewall Best Practices and Sizing Calculator
+- Doc ID 1328209.1: Oracle Audit Vault and Database Firewall Bundle Patch Reference
+- Doc ID 1593059.1: Audit Vault and Database Firewall : Frequently Asked Questions
+- Doc ID 1681969.2: Oracle Audit Vault and Database Firewall
 
 Documentation: 
 
