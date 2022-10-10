@@ -2,7 +2,7 @@
 
 ## I have a question I don't want to ask in the pubic forum. 
 
-If you'd like to ask your question privately, please email me at richard c evans at oracle
+If you'd like to ask your question privately, please email me at richard c evans _at_ oracle 
 
 ## Where do I find the recordings? 
 
@@ -14,16 +14,14 @@ For Critical Patch Updates, Security Alerts, and Bulletins for all Oracle produc
 
 Fleet Patching and Provisioning: https://docs.oracle.com/en/database/oracle/oracle-database/19/cwadd/rapid-home-provisioning.html
 
-## Support and Documentation
+## Support Notes
 
-- Doc ID 2092683.1: Audit Vault and Database Firewall Best Practices and Sizing Calculator
-- Doc ID 1328209.1: Oracle Audit Vault and Database Firewall Bundle Patch Reference
-- Doc ID 1593059.1: Audit Vault and Database Firewall : Frequently Asked Questions
-- Doc ID 1681969.2: Oracle Audit Vault and Database Firewall
+- Doc ID 1195205.1: Primary Note for Oracle Database Vault
+- Doc ID 2666113.1: Simulation Mode in Database Vault
 
 ## Documentation: 
 
-https://docs.oracle.com/en/database/oracle/audit-vault-database-firewall/index.html
+- Oracle Database Vault 19c: https://docs.oracle.com/database/121/DVADM/toc.htm
 
 ## Next steps to learn more about Oracle Database Vault 
 
