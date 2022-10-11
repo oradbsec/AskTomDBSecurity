@@ -7,4 +7,4 @@ All links shared are available either public or available to Oracle customers wi
 
 To subscribe to AskTom DB Security Office Hours, please visit https://bit.ly/asktomdbsec
 
-If you are an Oracle Partner, you can subscribe to Oracle Database Security Office Hours for partners on OPN: https://www.oracle.com/opn/secure/get-enabled/partnercasts/product-channel/platform/index.html#database
+If you are an Oracle Partner, you can subscribe to Oracle Database Security Office Hours for Partners on OPN: https://www.oracle.com/opn/secure/get-enabled/partnercasts/product-channel/platform/index.html#database
