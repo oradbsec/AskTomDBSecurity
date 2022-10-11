@@ -8,11 +8,11 @@ If you'd like to ask your question privately, please email me at richard c evans
 
 After the session, they will be posted to AskTom DB Security Office Hours: bit.ly/asktomdbsec
 
-## Critical Patches
+## Critical Patches and Updates
 
-For Critical Patch Updates, Security Alerts, and Bulletins for all Oracle products please see: https://www.oracle.com/security-alerts
-
-Fleet Patching and Provisioning: https://docs.oracle.com/en/database/oracle/oracle-database/19/cwadd/rapid-home-provisioning.html
+- For Critical Patch Updates, Security Alerts, and Bulletins for all Oracle products please see: https://www.oracle.com/security-alerts
+- For patch numbers and more details see My Oracle Support (MOS) Note: 2118136.2 
+- Fleet Patching and Provisioning: https://docs.oracle.com/en/database/oracle/oracle-database/19/cwadd/rapid-home-provisioning.html
 
 ## Support Notes
 
@@ -21,15 +21,15 @@ Fleet Patching and Provisioning: https://docs.oracle.com/en/database/oracle/orac
 
 ## Documentation: 
 
-- Oracle Database Vault 19c: Oracle Database Vault 19c: https://docs.oracle.com/en/database/oracle/oracle-database/19/dvadm/index.html
+- Oracle Database Vault 19c: https://docs.oracle.com/en/database/oracle/oracle-database/19/dvadm/index.html
 
 ## Next steps to learn more about Oracle Database Vault 
 
 - Database Vault Use Cases - Part 1: https://asktom.oracle.com/pls/apex/asktom.search?oh=6145
 - Database Vault Advanced Use Cases - Part 2: https://asktom.oracle.com/pls/apex/asktom.search?oh=6147
 - Database Vault Basics Part 1- Enforcing a Trusted Path to Data: https://asktom.oracle.com/pls/apex/asktom.search?oh=6974
-- LiveLab – Oracle Database Vault: https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=682
-- LiveLab - Prevent unauthorized data access in Autonomous Databases with DB Vault: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3071
+- LiveLab on Oracle Database Vault: https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=682
+- LiveLab to Prevent unauthorized data access in Autonomous Databases with DB Vault: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3071
 
 
   
