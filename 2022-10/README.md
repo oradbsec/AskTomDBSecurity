@@ -21,7 +21,7 @@ Fleet Patching and Provisioning: https://docs.oracle.com/en/database/oracle/orac
 
 ## Documentation: 
 
-- Oracle Database Vault 19c: https://docs.oracle.com/database/121/DVADM/toc.htm
+- Oracle Database Vault 19c: Oracle Database Vault 19c: https://docs.oracle.com/en/database/oracle/oracle-database/19/dvadm/index.html
 
 ## Next steps to learn more about Oracle Database Vault 
 
