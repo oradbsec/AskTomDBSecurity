@@ -24,6 +24,10 @@ Doc ID 2372010.1: Oracle Key Vault FAQ
 
 - Oracle Key Vault 19c: https://docs.oracle.com/en/database/oracle/key-vault/21.5/index.html
 
+## Recent posts on our Oracle Security blog
+
+- Some of the latest blog posts available at blogs.oracle.com/cloudsecurity
+
 ## Software 
 
 - Download OKV 21.5 from Oracle Software Delivery Cloud: https://edelivery.oracle.com/
