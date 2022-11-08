@@ -33,10 +33,23 @@ Doc ID 2372010.1: Oracle Key Vault FAQ
 - Download OKV 21.5 from Oracle Software Delivery Cloud: https://edelivery.oracle.com/
 - Upgrade existing OKV servers (18.x, 21.x) to OKV 21.5 by downloading patch 34024364 from Oracle Support
 
+## Oracle 23c App Simple
+
+- Recruitment has opened for participation in the forthcoming Oracle Database 23c beta program. Customers and partners interested in participating in the Oracle Database 23c beta program are encouraged to submit ther recruitment form as soon as possible. https://blogs.oracle.com/database/post/oracle-database-23c-beta-program
+
 ## Next steps to learn more about Oracle Key Vault 
 
 - Launch OKV 21.5 from the Oracle Cloud Marketplace in your OCI tenancy: https://cloudmarketplace.oracle.com/marketplace/app/OracleKeyVault
 - Deploying Oracle Key Vault in OCI (in under 10 minutes): https://youtu.be/ULKHmTyqu6s
 - Oracle LiveLabs on Oracle Key Vault: https://tinyurl.com/OKVLiveLab
 - Oracle Livelabs on Oracle Database Security (advanced): https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=726
-- Tales from the Deark Side: Hacking the Database: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3300
+- Tales from the Dark Side: Hacking the Database: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3300
+
+## Previous AskTom sessions
+
+- Back to basics with Transparent Data Encryption (TDE): https://asktom.oracle.com/pls/apex/asktom.search?oh=12068
+- Key Vault with ExaCC: https://asktom.oracle.com/pls/apex/asktom.search?oh=16825
+- Oracle Key Vault 21.4 New Features: https://asktom.oracle.com/pls/apex/asktom.search?oh=17185
+- Transparent Data Encryption Advanced Use Cases - Part 2: https://asktom.oracle.com/pls/apex/asktom.search?oh=6674
+- Transparent Data Encryption Advanced Use Cases - Part 1: https://asktom.oracle.com/pls/apex/asktom.search?oh=6673
+
