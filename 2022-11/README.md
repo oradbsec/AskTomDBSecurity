@@ -14,6 +14,7 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 - For Critical Patch Updates, Security Alerts, and Bulletins for all Oracle products please see: https://www.oracle.com/security-alerts
 - For patch numbers and more details see My Oracle Support (MOS) Note: 2118136.2 
 - Fleet Patching and Provisioning: https://docs.oracle.com/en/database/oracle/oracle-database/19/cwadd/rapid-home-provisioning.html
+- CPU Program Oct 2022 Patch Availability Document (DB-only) (Doc ID 2888497.1)	
 
 ## Support Notes
 
