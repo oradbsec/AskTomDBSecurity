@@ -64,7 +64,9 @@ Available at https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?
 
 Sign up at https://tinyurl.com/OracleBeta
 
+# Hands-on demonstration
 
-# 
+Link to the commands for today
+
 
 
