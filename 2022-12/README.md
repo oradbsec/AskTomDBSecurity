@@ -66,7 +66,7 @@ Sign up at https://tinyurl.com/OracleBeta
 
 # Hands-on demonstration
 
-Link to the commands for today
+Link to the commands for today: https://github.com/oradbsec/AskTomDBSecurity/blob/main/2022-12/asktom_dec22_example.sql
 
 
 
