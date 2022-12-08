@@ -66,6 +66,8 @@ Sign up at https://tinyurl.com/OracleBeta
 
 # Hands-on demonstration
 
+A Simple Guide to Lockdown Profile by Can Tuzla: https://blogs.oracle.com/database/post/a-simple-guide-to-lockdown-profiles
+
 Link to the commands for today: https://github.com/oradbsec/AskTomDBSecurity/blob/main/2022-12/asktom_dec22_example.sql
 
 
