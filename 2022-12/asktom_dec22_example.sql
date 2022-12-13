@@ -67,9 +67,11 @@ create user data_user identified by Oracle123;
 -- grant the least privilege possible to our user running the commands
 grant create session to data_user;
 
-
-
 connect sys/Oracle123@pdb1 as sysdba
+-- Grant read on this view to our function owner
+grant read on sys.dba_users to data_owner;
+
+-- create the function with invoker rights
 create or replace function data_owner.date_created (c_username in varchar2) 
  RETURN date authid current_user 
  IS v_create_date date;
@@ -78,16 +80,6 @@ BEGIN
 RETURN v_create_date;
 END;
 /
-
-SQL> show errors;
-Errors for FUNCTION DATA_OWNER.DATE_CREATED:
-
-LINE/COL ERROR
--------- -----------------------------------------------------------------
-5/5      PL/SQL: SQL Statement ignored
-5/44     PL/SQL: ORA-00942: table or view does not exist
-
-grant read on sys.dba_users to data_owner;
 
 -- As DATA_USER, you will get this error
 --
