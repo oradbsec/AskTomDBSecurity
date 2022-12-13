@@ -11,6 +11,7 @@
 
 
 
+
 -- housekeeping in case you have executed this before
 /*
 connect sys/Oracle123@pdb1 as sysdba
@@ -65,6 +66,79 @@ ALTER USER data_owner QUOTA 100M ON asktomdemo;
 create user data_user identified by Oracle123;
 -- grant the least privilege possible to our user running the commands
 grant create session to data_user;
+
+
+
+connect sys/Oracle123@pdb1 as sysdba
+create or replace function data_owner.date_created (c_username in varchar2) 
+ RETURN date authid current_user 
+ IS v_create_date date;
+BEGIN
+    select created into v_create_date from sys.dba_users where username = c_username;
+RETURN v_create_date;
+END;
+/
+
+SQL> show errors;
+Errors for FUNCTION DATA_OWNER.DATE_CREATED:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+5/5      PL/SQL: SQL Statement ignored
+5/44     PL/SQL: ORA-00942: table or view does not exist
+
+grant read on sys.dba_users to data_owner;
+
+-- As DATA_USER, you will get this error
+--
+-- select data_owner.date_created('SYSTEM') from dual;
+connect data_user/Oracle123@pdb1
+select data_owner.date_created('SYSTEM') from dual;
+
+-- Grant execute on the function to the user
+connect sys/Oracle123@pdb1 as sysdba
+grant execute on data_owner.date_created to data_user;
+
+-- Next, we will get another error b/c we have not given 
+-- the function the role with the proper privileges
+--
+-- ORA-00942: table or view does not exist
+connect data_user/Oracle123@pdb1
+desc data_owner.date_created;
+select data_owner.date_created('SYSTEM') from dual;
+
+-- as privileged user, create the role and run the CBAC grant
+connect sys/Oracle123@pdb1 as sysdba
+create role read_dba_users_role;
+grant read on sys.dba_users to read_dba_users_role;
+grant read_dba_users_role to data_owner;
+-- this is CBAC b/c we are granting a role to a procedure
+grant read_dba_users_role to function data_owner.date_created;
+
+-- this should return the value we expect
+connect data_user/Oracle123@pdb1
+select data_owner.date_created('DATA_USER') from dual;
+select data_owner.date_created('SYSTEM') from dual;
+
+-- If you want to prove it is the role granted to the function
+-- you can run the following again
+connect sys/Oracle123@pdb1 as sysdba
+revoke read_dba_users_role from function data_owner.date_created;
+
+-- If we have revoked the role, we should get the error again
+--
+-- ORA-00942: table or view does not exist
+connect data_user/Oracle123@pdb1
+select data_owner.date_created('DATA_USER') from dual;
+
+-- regrant the role so it works again
+connect sys/Oracle123@pdb1 as sysdba
+grant read_dba_users_role to function data_owner.date_created;
+
+-- this should return the proper dates
+connect data_user/Oracle123@pdb1
+select data_owner.date_created('DATA_USER') from dual;
+select data_owner.date_created('SYSTEM') from dual;
 
 -- create the objects, procedures, and packages
 
@@ -197,7 +271,7 @@ select object_name, object_type, status from dba_objects where owner = 'DATA_OWN
 -- the error should be
 -- PLS-00201: identifier 'DATA_OWNER.ACL_AUTH_PKG' must be declared
 connect data_user/Oracle123@pdb1
-EXEC data_owner.load_data('http://129.213.104.89/daily.csv');
+EXEC data_owner.load_data('http://10.0.0.150/daily.csv');
 -- error
 -- ORA-04043: object data_owner.acl_auth_pkg does not exist
 desc data_owner.acl_auth_pkg;
@@ -212,7 +286,7 @@ grant execute on data_owner.load_data to data_user;
 -- ORA-06512: at "DATA_OWNER.ACL_AUTH_PKG", line 55
 -- ORA-01031: insufficient privileges
 connect data_user/Oracle123@pdb1
-EXEC data_owner.load_data('http://129.213.104.89/daily.csv');
+EXEC data_owner.load_data('http://10.0.0.150/daily.csv');
 
 -- Allow UTL_HTTP to be used by PDBs with sec_profile lockdown profile. 
 connect / as sysdba
@@ -233,7 +307,7 @@ select profile_name, rule_type, rule, clause, status, users from DBA_LOCKDOWN_PR
 -- ORA-06512: at "DATA_OWNER.load_data", line 33
 -- ORA-24247: network access denied by access control list (ACL)
 connect data_user/Oracle123@pdb1
-EXEC data_owner.load_data('http://129.213.104.89/daily.csv');
+EXEC data_owner.load_data('http://10.0.0.150/daily.csv');
 
 -- As the user, if we try to run the DBMS_NETWORK_ACL_ADMIN ourself, it errors
 -- 
@@ -243,7 +317,7 @@ connect data_user/Oracle123@pdb1
 begin 
   -- Allow all hosts for HTTP/HTTP_PROXY privileges
   dbms_network_acl_admin.append_host_ace(
-	host => '129.213.104.89',
+	host => '10.0.0.150',
 	ace => xs$ace_type(privilege_list => xs$name_list('http', 'http_proxy'),
     principal_name => 'DATA_OWNER',
     principal_type => xs_acl.ptype_db));
@@ -252,7 +326,7 @@ end;
 
 -- This will error because the user does not have execute yet
 connect data_user/Oracle123@pdb1
-exec data_owner.acl_auth_pkg.grant_access ('129.213.104.89');
+exec data_owner.acl_auth_pkg.grant_access ('10.0.0.150');
 
 -- Grant the user execute on the package
 connect sys/Oracle123@pdb1 as sysdba
@@ -263,7 +337,7 @@ grant execute on data_owner.acl_auth_pkg to data_user;
 -- PLS-00201: identifier 'DBMS_NETWORK_ACL_ADMIN' must be declared
 -- 
 connect data_user/Oracle123@pdb1
-exec data_owner.acl_auth_pkg.grant_access ('129.213.104.89');
+exec data_owner.acl_auth_pkg.grant_access ('10.0.0.150');
 
 -- Here is where we start the CBAC process
 connect sys/Oracle123@pdb1 as sysdba
@@ -280,7 +354,7 @@ grant acl_auth_role to package data_owner.acl_auth_pkg;
 -- This will work now becuase the package has the proper privileges
 -- 
 connect data_user/Oracle123@pdb1
-exec data_owner.acl_auth_pkg.grant_access ('129.213.104.89');
+exec data_owner.acl_auth_pkg.grant_access ('10.0.0.150');
 
 -- verify the ACL
 connect sys/Oracle123@pdb1 as sysdba
@@ -297,7 +371,7 @@ select e.HOST, PRINCIPAL, PRIVILEGE, e.LOWER_PORT, ACLID
 -- PL/SQL procedure successfully completed.
 -- 
 connect data_user/Oracle123@pdb1
-EXEC data_owner.load_data('http://129.213.104.89/daily.csv');
+EXEC data_owner.load_data('http://10.0.0.150/daily.csv');
 
 connect sys/Oracle123@pdb1 as sysdba
 -- see the log data
@@ -316,7 +390,7 @@ revoke acl_auth_role from package data_owner.acl_auth_pkg;
 -- PLS-00201: identifier 'DBMS_NETWORK_ACL_ADMIN' must be declared
 -- 
 connect data_user/Oracle123@pdb1
-exec data_owner.acl_auth_pkg.revoke_access ('129.213.104.89');
+exec data_owner.acl_auth_pkg.revoke_access ('10.0.0.150');
 
 -- regrant the role so the package works again
 connect sys/Oracle123@pdb1 as sysdba
@@ -367,5 +441,3 @@ delete from data_owner.http_clob_test;
 -- attempt to drop the tablespace, this will fail
 connect sys/Oracle123@pdb1 as sysdba
 show user;
-
-
