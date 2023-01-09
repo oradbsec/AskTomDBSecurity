@@ -3,6 +3,8 @@
 
 ## January 2023: A look back at security in 2022 and a look ahead to 2023
 
+In the first Oracle Database Security Office Hours of 2023, we will look back at the breaches, ransomware, regulations, and security-related events of 2022 and Oracle's database security-related innovations and accomplishments. We will peek at what's to come in 2023 for Oracle Database security features and options, including Oracle Data Safe, Oracle Audit Vault & DB Firewall and Oracle Key Vault.
+
 # Oracle Database Release Updates
 
 Critical Patch Updates (CPU) are collections of security and bug fixes for Oracle products
@@ -12,6 +14,11 @@ See MOS note 2118136.2 for patch numbers and more details
 CPU Program Oct 2022 Patch Availability Document (DB-only) (Doc ID 2888497.1)	
 
 For Critical Patch Updates, Security Alerts, and Bulletins for all Oracle products please see: https://www.oracle.com/security-alerts
+
+Introducing Monthly Recommended Patches (MRPs) and FAQ (Doc ID 2898740.1): https://support.oracle.com/epmos/faces/DocContentDisplay?id=2898740.1
+
+Patching News: RURs are gone – long live MRPs: https://mikedietrichde.com/2022/10/26/patching-news-rurs-are-gone-long-live-mrps/
+
 
 # How do I know which feature or option is available in my version?
 
@@ -28,21 +35,27 @@ Navigate to https://apex.oracle.com/database-features
 
 # Oracle LiveLabs - Get hands-on with Oracle Database Security
 
-Available at https://developer.oracle.com/livelabs
+Hundreds of Oracle-related labs, and over 40 security-related labs, available at https://developer.oracle.com/livelabs
 
-Excited to annnounce a new LiveLab, Securing a legacy application using Oracle Database Vault on Oracle Autonomous Database
-Take a migrating n-premises application to Oracle Autonomous Database and secure it with Oracle Database Vault. 
+## Tales from the Dark Side: Hacking the Database
 
-Available at https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=3530
+A hands-on lab dedicated to the features and functionality of Oracle Database security to prevent, detect and mitigate the most common cyberattacks performed on Oracle Databases.
+
+Available at https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3300
+
+## Securing a legacy application with Oracle Autonomous Database and Oracle Database Vault
+
+Get hands-on experience with Oracle Database Vault on Oracle Autonomous Database to help you understand how to secure your application data when you move to Oracle Autonomous Database. 
+
+Available at: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3530
 
 # Oracle 23c Beta
 
-Sign up at https://tinyurl.com/OracleBeta
+Interested in beta testing Oracle's latest long term release of Oracle Database? Sign up at https://tinyurl.com/OracleBeta
 
 # Oracle Security Blog
 
-Some of the 2022 blog posts available at blogs.oracle.com/cloudsecurity
-
+Some of the 2022 blog posts available at https://blogs.oracle.com/cloudsecurity
 
 January:
 
