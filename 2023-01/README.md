@@ -1,7 +1,7 @@
 # AskTom - Oracle Database Security Office Hours
-## January 2023
 
-# A look back at security in 2022 and a look ahead to 2023
+
+## January 2023: A look back at security in 2022 and a look ahead to 2023
 
 # Oracle Database Release Updates
 
