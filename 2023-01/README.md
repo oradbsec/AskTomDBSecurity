@@ -53,6 +53,51 @@ Available at: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop
 
 Interested in beta testing Oracle's latest long term release of Oracle Database? Sign up at https://tinyurl.com/OracleBeta
 
+
+# Oracle Transparent Data Encryption (TDE) enhancements in 2022
+
+In 19.14, per-PDB keystores are available
+- Cloud and on-premises databases
+- Available 19.11, 19.12, 19.13 with patch 32235513
+- Only available with TDE-wallet or Oracle Key Vault
+
+In 19.16, the TDE initialization parameter TABLESPACE_ENCRYPTION supersedes ENCRYPT_NEW_TABLESPACES.
+
+See the Oracle Database 19c Reference Guide for more information: https://docs.oracle.com/en/database/oracle/oracle-database/19/refrn/TABLESPACE_ENCRYPTION.html
+
+See Glen Hawkin's blog: Introducing Oracle Data Guard Redo Decryption for Hybrid Disaster Recovery Configurations: https://blogs.oracle.com/maa/post/introducing-dg-redo-decrypt-for-hybrid-cloud
+
+# Oracle Key Vault 
+
+Desupport of Oracle Key Vault 18c as of April 2022
+
+2022 saw the release of Oracle Key Vault 21.4 and 21.5
+
+See the documentation for what's new: https://docs.oracle.com/en/database/oracle/key-vault/21.5/okvag/changes-this-release-oracle-key-vault.html
+
+
+# Oracle Audit Vault & Database Firewall
+
+Release of Oracle AVDF 21.7 and 20.8
+
+See the documentation for what's new: https://docs.oracle.com/en/database/oracle/audit-vault-database-firewall/20/sigrn/index.html
+
+# Oracle Cloud Database Security
+
+Integration with OCI IAM and Azure AD
+
+See Alan's blog for more information: Oracle Autonomous Database users can now be authenticated and managed with Azure Active Directory: https://blogs.oracle.com/cloudsecurity/post/azure-active-directory-can-authenticate-database-users
+
+# Oracle LiveLabs
+
+### Tales from the Dark Side: Hacking an Oracle Database
+
+See Hakim's post on LinkedIn: https://www.linkedin.com/posts/loumihakim_oracle-dbsecurity-livelabs-activity-6965789241897316353-tPhw/
+
+### Securing a legacy application with Oracle Autonomous Database and Oracle Database Vault
+
+Give the lab a try in your Oracle Cloud free tier: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3530
+
 # Oracle Security Blog
 
 Some of the 2022 blog posts available at https://blogs.oracle.com/cloudsecurity
@@ -113,5 +158,9 @@ November:
 December:
 
 - Automate compliance reports with Oracle Data Safe: https://blogs.oracle.com/cloudsecurity/post/automate-compliance-reporting-with-oracle-data-safe
+
+# Oracle CloudWorld 
+
+OCW'22 Security Sessions are available at https://youtu.be/KvfoPBdTYBE
 
 
