@@ -53,6 +53,12 @@ Available at: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop
 
 Interested in beta testing Oracle's latest long term release of Oracle Database? Sign up at https://tinyurl.com/OracleBeta
 
+# Unified Auditing
+
+This is the year to switch from traditional auditing to Unified Auditing!
+
+- Traditional to Unified Audit Syntax Converter - Generate Unified Audit Policies from Current Traditional Audit Configuration (Doc ID 2909718.1)	
+
 
 # Oracle Transparent Data Encryption (TDE) enhancements in 2022
 
@@ -74,7 +80,6 @@ Desupport of Oracle Key Vault 18c as of April 2022
 2022 saw the release of Oracle Key Vault 21.4 and 21.5
 
 See the documentation for what's new: https://docs.oracle.com/en/database/oracle/key-vault/21.5/okvag/changes-this-release-oracle-key-vault.html
-
 
 # Oracle Audit Vault & Database Firewall
 
