@@ -1,6 +1,5 @@
-# Oracle Database Security Office Hours
-# February 2023
-# Creating realistic masked data with Oracle Data Masking & Subsetting 
+# Oracle Database Security Office Hours - February 2023
+## Creating realistic masked data with Oracle Data Masking & Subsetting 
 
 # Oracle Database Release Updates
 Oracle quarterly patches were released around 20 January 2023 and are available for all platforms Oracle supports
