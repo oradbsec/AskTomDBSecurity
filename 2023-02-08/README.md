@@ -14,6 +14,10 @@ For more on Oracle Database patching and upgrades, check out Mike Dietrich's blo
 
 Oracle now offers monthly patching, Monthly Recommended Patches, please see Mike Dietrich’s blog post: https://mikedietrichde.com/2022/10/26/patching-news-rurs-are-gone-long-live-mrps/
 
+# Migrate from traditional auditing to unified auditing
+
+- Traditional to Unified Audit Syntax Converter: Generate Unified Audit Policies from Current Traditional Audit Configuration (Doc ID 2909718.1)
+
 # New LiveLabs
 
 Simplify User Management by integrating Oracle ADB and Oracle Cloud Identity: https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=3565
