@@ -20,17 +20,17 @@ Oracle now offers monthly patching, Monthly Recommended Patches, please see Mike
 
 # New LiveLabs
 
-Simplify User Management by integrating Oracle ADB and Oracle Cloud Identity: https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=3565
-Protect sensitive data in REST GET calls using Oracle Data Redaction: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3564
+- Simplify User Management by integrating Oracle ADB and Oracle Cloud Identity: https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=3565
+- Protect sensitive data in REST GET calls using Oracle Data Redaction: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3564
 
 # LiveLabs for Oracle Audit Vault & DB Firewall
 
-Audit Vault & DB Firewall: https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=711
-DB Security - Advanced: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=726
-Tales from the Dark Side, Hacking the Database: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3300
+- Audit Vault & DB Firewall: https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=711
+- DB Security - Advanced: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=726
+- Tales from the Dark Side, Hacking the Database: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3300
 
 # AVDF related notes
 
-AVDF 20 New Features: https://docs.oracle.com/en/database/oracle/audit-vault-database-firewall/20/sigrn/index.html
-My Oracle Support Primary Note For Audit Vault Server And Database Firewall (Doc ID 2169653.1): https://support.oracle.com/knowledge/Oracle%20Database%20Products/2169653_1.html
-Download AVDF from Oracle eDelivery: https://edelivery.oracle.com/
+- AVDF 20 New Features: https://docs.oracle.com/en/database/oracle/audit-vault-database-firewall/20/sigrn/index.html
+- My Oracle Support Primary Note For Audit Vault Server And Database Firewall (Doc ID 2169653.1): https://support.oracle.com/knowledge/Oracle%20Database%20Products/2169653_1.html
+- Download AVDF from Oracle eDelivery: https://edelivery.oracle.com/
