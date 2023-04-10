@@ -70,5 +70,3 @@ A Simple Guide to Lockdown Profile by Can Tuzla: https://blogs.oracle.com/databa
 
 Link to the commands for today: https://github.com/oradbsec/AskTomDBSecurity/blob/main/2022-12/asktom_dec22_example.sql
 
-
-
