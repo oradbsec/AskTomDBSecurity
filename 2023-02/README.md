@@ -26,3 +26,5 @@ Protect sensitive data in REST GET calls using Oracle Data Redaction: https://ap
 # Oracle Data Masking & Subsetting related LiveLabs
 
 DB Security - Data Masking and Subsetting: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=704
+
+
