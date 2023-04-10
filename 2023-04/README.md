@@ -16,7 +16,7 @@ Oracle now offers monthly patching, Monthly Recommended Patches, please see Mike
 
 # Migrate from traditional auditing to unified auditing
 
-- Traditional to Unified Audit Syntax Converter: Generate Unified Audit Policies from Current Traditional Audit Configuration (Doc ID 2909718.1)
+- Doc ID 2909718.1: Traditional to Unified Audit Syntax Converter: Generate Unified Audit Policies from Current Traditional Audit Configuration
 
 # Recent Data Safe Enhancements
 
@@ -43,6 +43,14 @@ Notes related to this month's topic, include:
 - 1076022.1: Examples of Troubleshooting Slow Oracle Net Connections
 - 1991711.1: How to Use and Trace Oracle Net with SQLDeveloper
 - 1390063.1: How to generate a SQLNET trace with SQL Developer
+
+# Oracle Database 23c Beta
+
+To appyl to the 23c beta program, visit https://tinyurl.com/OracleBeta
+
+# Oracle Database 23c FREE Developer Release
+
+Get your hands on Oracle DB 23c FREE Developer Release to try out the new features and capability, visit Oracle.com/23cFREE
 
 # Recent Security-related LiveLabs
 
