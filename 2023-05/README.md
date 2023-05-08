@@ -30,11 +30,19 @@ Notes related to this month's topic, include:
 
 Oracle Data Safe videos
 
-- https://www.youtube.com/watch?v=UUc26bpdFnc
+- Introduction to Oracle Data Safe: https://www.youtube.com/watch?v=UUc26bpdFnc
+- Key Vault with ExaCC, Oracle Data Safe's OCI native migration is complete: https://asktom.oracle.com/pls/apex/asktom.search?oh=16825
+- Update on Data Safe target registration: https://asktom.oracle.com/pls/apex/asktom.search?oh=14167
+- Oracle Data Safe Assessment: New features, new user interface: https://asktom.oracle.com/pls/apex/asktom.search?oh=15146
+- Information Lifecycle Management in Data Safe: https://asktom.oracle.com/pls/apex/asktom.search?oh=12687
 
 # Oracle Database 23c FREE Developer Release
 
 Get your hands on Oracle DB 23c FREE Developer Release to try out the new features and capability, visit Oracle.com/23cFREE
+
+# A new LiveLab focusing on one-way TLS
+
+- Successfully protect your database communication using 1-way Transport Layer Security (TLS): https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=3631
 
 # Related Oracle LiveLabs
 
@@ -43,9 +51,6 @@ Get your hands on Oracle DB 23c FREE Developer Release to try out the new featur
 - Integrate Oracle Data Safe with applications and services: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3596
 - Simplify Security for Microservices on Converged Oracle Database: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3338
 - 
-# A new LiveLab focusing on one-way TLS
-
-- Successfully protect your database communication using 1-way Transport Layer Security (TLS): https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=3631
 
 # Recent Data Safe Enhancements
 
