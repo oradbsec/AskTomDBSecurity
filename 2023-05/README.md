@@ -47,13 +47,6 @@ Get your hands on Oracle DB 23c FREE Developer Release to try out the new featur
 
 # Recent Data Safe Enhancements
 
-Learn more at https://www.oracle.com/security/database-security/data-safe/
-
-- Data Safe auto-enablement
-- Data Safe overview
-- Masking policy synchronization
-- User profile insights
-- Target paid usage override
-- Custom listener prots for ExadataC@C databases
-
-Tier Data Safe pricing for on-premises and on-compute databases available at https://www.oracle.com/cloud/price-list/#data-safe
+- What’s New for Oracle Data Safe: https://docs.oracle.com/en/cloud/paas/data-safe/wdscs/index.html
+- Tier Data Safe pricing for on-premises and on-compute databases available at https://www.oracle.com/cloud/price-list/#data-safe
+- Learn more at https://www.oracle.com/security/database-security/data-safe/
