@@ -18,12 +18,6 @@ Oracle now offers monthly patching, Monthly Recommended Patches, please see Mike
 
 - Doc ID 2909718.1: Traditional to Unified Audit Syntax Converter: Generate Unified Audit Policies from Current Traditional Audit Configuration
 
-# Oracle support corner
-
-Notes related to this month's topic, include: 
-
-- 
-
 # Oracle Data Safe documentation
 
 - https://docs.oracle.com/en-us/iaas/data-safe/index.html
@@ -50,7 +44,6 @@ Get your hands on Oracle DB 23c FREE Developer Release to try out the new featur
 - Oracle Data Safe for on-premises Oracle Databases: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=930
 - Integrate Oracle Data Safe with applications and services: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3596
 - Simplify Security for Microservices on Converged Oracle Database: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3338
-- 
 
 # Recent Data Safe Enhancements
 
