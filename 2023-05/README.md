@@ -34,6 +34,9 @@ Oracle Data Safe videos
 
 Get your hands on Oracle DB 23c FREE Developer Release to try out the new features and capability, visit Oracle.com/23cFREE
 
+- Try out Oracle DB 23c FREE Developer Release SQL Firewall, demo script available here: https://github.com/oracle-samples/oracle-db-examples/tree/main/sql-firewall
+- Walk-through video available here: https://youtu.be/cnw5AB9_Z9k
+
 # A new LiveLab focusing on one-way TLS
 
 - Successfully protect your database communication using 1-way Transport Layer Security (TLS): https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=3631
