@@ -43,7 +43,7 @@ Get your hands on Oracle DB 23c FREE Developer Release to try out the new featur
 
 # Oracle Key Vault LiveLab
 
-- Learn how to migrate from an Oracle Database wallet to Oracle Key Vault Online Master Key: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=727![image](https://github.com/oradbsec/AskTomDBSecurity/assets/16008552/2aa7a4dd-d7dd-4d11-af68-25703c14d61a)
+- Learn how to migrate from an Oracle Database wallet to Oracle Key Vault Online Master Key: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=727
 
 # Related Oracle LiveLabs
 
