@@ -23,10 +23,19 @@ Oracle now offers monthly patching, Monthly Recommended Patches, please see Mike
 
 - Chapter 15 Using Oracle Virtual Private Database to Control Data Access: https://docs.oracle.com/en/database/oracle/oracle-database/23/dbseg/using-oracle-vpd-to-control-data-access.html#GUID-06022729-9210-4895-BF04-6177713C65A7
 
+# Oracle VPD MOS notes
+
+- 1352641.1: Primary Note For Oracle Virtual Private Database ( VPD / FGAC / RLS )
+- 125511.1: How to Generate Tracing when using Fine Grained Access Control
+- 187239.1: Execution plan may change when you use Fine Grained Access Control (FGAC)
+- 1637312.1: Example: How to Move a RLS Policy Between Databases Using Datapump
+- 69401.1: How to resolve ORA-28110 or ORA-28112 on SELECT or DML
+- 331862.1: ORA-28113 when a Policy Predicate is Fetched from a Context
+- 1991711.1: ORA-28112: Select on a Table with FGAC Policy Enabled
+
 Oracle VPD videos
 
 - Ask Tom PL/SQL Office Hours: Virtual Private Database: Beyond the Basics! https://www.youtube.com/watch?v=jSX_igtEPRQ
-
 
 # Oracle Database 23c FREE Developer Release
 
