@@ -1,2 +1,2 @@
-# AskTom DB Security Office Hours - July 2023
+# AskTom DB Security Office Hours - August 2023
 
