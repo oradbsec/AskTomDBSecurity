@@ -33,7 +33,7 @@ Oracle now offers monthly patching, Monthly Recommended Patches, please see Mike
 - 331862.1: ORA-28113 when a Policy Predicate is Fetched from a Context
 - 1991711.1: ORA-28112: Select on a Table with FGAC Policy Enabled
 
-Oracle VPD videos
+# Oracle VPD videos
 
 - Ask Tom PL/SQL Office Hours: Virtual Private Database: Beyond the Basics! https://www.youtube.com/watch?v=jSX_igtEPRQ
 
