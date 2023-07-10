@@ -52,8 +52,9 @@ Get your hands on Oracle DB 23c FREE Developer Release to try out the new featur
 
 - The VPD LiveLab is under development, for now you can perform the following steps to take the lab
 -   - Provision the DB Security Basics LiveLab: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=698
-    - Download the dbsec-livelab-vpd.tar file from here
-- 
+    - Download the dbsec-livelab-vpd.tar file from here: https://objectstorage.us-ashburn-1.oraclecloud.com/p/AC5TmVamZJxZfPG21L3cjuGER4BBS5lvMS80Du3DOwkkVtwoySpGfPIdo4Zf9knM/n/oradbclouducm/b/dbsec_rich/o/dbsec-livelabs-vpd.tar
+
+
 # Related Oracle LiveLabs
 
 - Oracle Database Security Basics: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3720
