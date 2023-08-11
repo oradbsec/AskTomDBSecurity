@@ -1,8 +1,8 @@
 # AskTom DB Security Office Hours - August 2023
 
-# Extend your Oracle Data Safe capability to Amazon RDS for Oracle
+## Extend your Oracle Data Safe capability to Amazon RDS for Oracle
 
-# Oracle Data Safe is the OCI cloud service providing an integrated set of essential security services for Oracle Databases both in the cloud and on-premises. Join us for August's DB Security Office Hours where we will be introducing Data Safe's support for Amazon RDS for Oracle Database. Database Security product managers will demonstrate Oracle Data Safe ability to monitor Amazon RDS for Oracle Databases and answer any questions you have regarding this exciting new capability or existing Oracle Data Safe capabilities.
+Oracle Data Safe is the OCI cloud service providing an integrated set of essential security services for Oracle Databases both in the cloud and on-premises. Join us for August's DB Security Office Hours where we will be introducing Data Safe's support for Amazon RDS for Oracle Database. Database Security product managers will demonstrate Oracle Data Safe ability to monitor Amazon RDS for Oracle Databases and answer any questions you have regarding this exciting new capability or existing Oracle Data Safe capabilities.
 
 # 
 # Oracle Database Release Updates
@@ -43,4 +43,19 @@ Get your hands on Oracle DB 23c FREE Developer Release to try out the new featur
 
 - DB Security - Advanced Compression and Transparent Data Encryption (TDE): https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3720
 
-# Oracle Data Safe
+# Oracle Data Safe related information
+
+Links that can help you configure Oracle Data Safe and Amazon RDS for Oracle
+- Using RDS with SSL: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html
+- Configuring SSL with RDS Group: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithOptionGroups.html#USER_WorkingWithOptionGroups.Create
+- Configuring DB Parameter Groups: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithParamGroups.html
+- Data Safe Documentation for RDS: https://docs.oracle.com/en/cloud/paas/data-safe/admds/register-amazon-rds-oracle-database.html#GUID-657FD304-8C00-4D65-A32D-7A9035C41D73
+
+You might also need to perform the following on the EC2 instance
+
+- Install Zip: sudo dnf install zip
+- Install the I/O libraries: sudo dnf install libaio
+- Java libraries and Java home: sudo yum install java-11-openjdk
+- Setup env variables: (example) export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-11.0.20.0.8-2.el9.x86_64" 
+- Check that Python is installed: python --version
+
