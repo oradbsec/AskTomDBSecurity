@@ -17,6 +17,15 @@ For more on Oracle Database patching and upgrades, check out Mike Dietrich's blo
 
 Oracle now offers monthly patching, Monthly Recommended Patches, please see Mike Dietrich’s blog post: https://mikedietrichde.com/2022/10/26/patching-news-rurs-are-gone-long-live-mrps/
 
+# Oracle CloudWorld 2023 - September 18-21, 2023, Las Vegas
+
+- Register here: www.oracle.com/cloudworld/register/
+- At least sign up for the CloudWorld on Air (free!)
+
+# DB security related sessions at Oracle CloudWorld 2023
+
+- https://events.rainfocus.com/widget/oracle/cwoh23/1692034288641001oEjN
+
 # Migrate from traditional auditing to unified auditing
 
 - Doc ID 2909718.1: Traditional to Unified Audit Syntax Converter: Generate Unified Audit Policies from Current Traditional Audit Configuration
@@ -30,7 +39,7 @@ Oracle now offers monthly patching, Monthly Recommended Patches, please see Mike
 
 - Primary Note For Database Unified Auditing (Doc ID 2351084.1)
 
-# Oracle Unified AUditing hands-on labs
+# Oracle Unified Auditing hands-on labs
 
 - Oracle Unified Auditing: https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=702
   
