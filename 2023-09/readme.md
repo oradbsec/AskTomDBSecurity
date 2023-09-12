@@ -41,7 +41,7 @@ Get your hands on Oracle DB 23c FREE Developer Release to try out the new featur
 - Try out Oracle DB 23c FREE Developer Release SQL Firewall, demo script available here: https://github.com/oracle-samples/oracle-db-examples/tree/main/sql-firewall
 - Walk-through video available here: https://youtu.be/cnw5AB9_Z9k
 
-# A new LiveLab to help you understand the relationship between compression and encryption
+# New or updated LiveLabs on Oracle Database security
 
 - DB Security - Advanced Compression and Transparent Data Encryption (TDE): https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3720
 - DB Security - How Developers Could Use Oracle Database Proxy Authentication: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3785
