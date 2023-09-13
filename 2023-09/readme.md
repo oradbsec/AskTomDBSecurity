@@ -55,5 +55,12 @@ Get your hands on Oracle DB 23c FREE Developer Release to try out the new featur
 - DB Security - Advanced Compression and Transparent Data Encryption (TDE): https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3720
 - DB Security - How Developers Could Use Oracle Database Proxy Authentication: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3785
 
+# Additional Oracle Unified Auditing links
+
+- Database Activity Monitoring Made Simpler: https://youtu.be/k-vick58Y7o?si=ohrqUCHpaKKcLjpa 
+- Oracle Database Unified Audit Best Practice Guidelines: https://www.oracle.com/docs/tech/dbsec/unified-audit-best-practice-guidelines.pdf
+
+
+
 
 
