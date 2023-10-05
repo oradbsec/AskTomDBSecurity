@@ -18,9 +18,9 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 
 ## Support Notes
 
-Doc ID 1228046.1: Primary Note For Transparent Data Encryption ( TDE )
-Doc ID 2372010.1: Oracle Key Vault FAQ
-Doc ID 2310066.1: Oracle TDE Support With 3rd Party HSM Vendors
+- Doc ID 1228046.1: Primary Note For Transparent Data Encryption ( TDE )
+- Doc ID 2372010.1: Oracle Key Vault FAQ
+- Doc ID 2310066.1: Oracle TDE Support With 3rd Party HSM Vendors
 
 ## Documentation 
 
