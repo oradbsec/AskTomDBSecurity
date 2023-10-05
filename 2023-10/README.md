@@ -30,9 +30,7 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 
 - Some of the latest blog posts available at blogs.oracle.com/cloudsecurity
 
-## Software 
-
-## COMING SOON
+## Software (COMING SOON)
 
 - Download OKV 21.7 from Oracle Software Delivery Cloud: https://edelivery.oracle.com/
 - Upgrade existing OKV servers (18.x, 21.x) to OKV 21.7 by downloading the patch from Oracle Support
