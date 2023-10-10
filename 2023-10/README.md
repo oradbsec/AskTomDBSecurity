@@ -30,6 +30,10 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 
 - Some of the latest blog posts available at blogs.oracle.com/cloudsecurity
 
+## Oracle Tech Lounge 
+
+- Technical presentations available here: https://go.oracle.com/LP=137345?elqCampaignId=468926
+
 ## Software (COMING SOON)
 
 - Download OKV 21.7 from Oracle Software Delivery Cloud: https://edelivery.oracle.com/
