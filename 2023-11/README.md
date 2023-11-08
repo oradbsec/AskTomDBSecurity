@@ -27,6 +27,8 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 
 ## Recent posts on our Oracle Security blog
 
+- Simplifying Database Security Posture Management with Oracle Audit Vault and Database Firewall (AVDF) Release Update 20.10: https://blogs.oracle.com/cloudsecurity/post/db-security-oracle-audit-vault-db-firewall-avdf-10
+
 - Some of the latest blog posts available at blogs.oracle.com/cloudsecurity
 
 ## Oracle Tech Lounge 
