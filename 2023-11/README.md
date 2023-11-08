@@ -35,6 +35,12 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 
 - Technical presentations available here: https://go.oracle.com/LP=137345?elqCampaignId=468926
 
+## AVDF Cafe
+
+- AVDF Cafe North America: https://asktom.oracle.com/pls/apex/asktom.search?oh=18623
+- AVDF Cafe Europe, Middle East, Africa: https://asktom.oracle.com/pls/apex/asktom.search?oh=18643
+- AVDF Cafe APAC/Japan/India: https://asktom.oracle.com/pls/apex/asktom.search?oh=18622
+
 ## Software
 
 - Download AVDF from Oracle Software Delivery Cloud: https://edelivery.oracle.com/
