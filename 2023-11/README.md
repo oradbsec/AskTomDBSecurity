@@ -19,7 +19,8 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 ## Support Notes
 
 - Doc ID 1199033.1: Primary Note For Oracle Audit Vault
-- Doc ID 1328209.1: Oracle AVDF Releases Support Status 
+- Doc ID 1328209.1: Oracle AVDF Releases Support Status
+- Doc ID 2092683.1: Audit Vault and Database Firewall Best Practices and Sizing Calculator for AVDF 12.2 and AVDF 20
 
 ## Documentation 
 
