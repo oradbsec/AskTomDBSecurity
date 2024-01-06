@@ -22,7 +22,8 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 
 ## Documentation 
 
-- Proxy authentication documentation: https://docs.oracle.com/en/database/oracle/oracle-database/19/jjdbc/proxy-authentication.html
+- Oracle JDBC Developer Guide, proxy authentication: https://docs.oracle.com/en/database/oracle/oracle-database/19/jjdbc/proxy-authentication.html
+- Oracle Database Security Guide: https://docs.oracle.com/en/database/oracle/oracle-database/19/dbseg/configuring-authentication.html
   
 ## Recent posts on our Oracle Security blog
 
