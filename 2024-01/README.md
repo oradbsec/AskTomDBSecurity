@@ -95,3 +95,62 @@ SELECT SYS_CONTEXT('USERENV', 'PROXY_USER')  proxy_user
 select * From session_roles;
 
 ```
+
+### Kerberos authentication and proxy users
+### This assumes you have Kerberos authentication configured on the client and database
+
+```
+create user rcevans identified externally as 'rcevans@DBSECLABS.COM';
+ALTER USER privbroker GRANT CONNECT THROUGH rcevans;
+sqlplus [privbroker]/@pdb1
+SELECT SYS_CONTEXT('USERENV', 'PROXY_USER')  proxy_user
+     , SYS_CONTEXT('USERENV', 'CURRENT_USER') current_user
+     , SYS_CONTEXT('USERENV', 'SESSION_USER') session_user
+     , SYS_CONTEXT('USERENV', 'CURRENT_SCHEMA') current_schema 
+     , sys_context('userenv','enterprise_identity') enterprise_identity
+  FROM dual;
+PROXY_USER CURRENT_USER SESSION_USER CURRENT_SCHEMA ENTERPRISE_IDENTITY
+---------- ------------ ------------ -------------- ---------------------
+RCEVANS    PRIVBROKER   PRIVBROKER   PRIVBROKER     rcevans@DBSECLABS.COM
+
+```
+
+### Kerberos, Centrally Managed Users (CMU), and proxy users
+### This assumes you have Kerberos and CMU as shared schema configured on the client and database
+
+```
+
+drop user rcevans;
+ALTER USER privbroker GRANT CONNECT THROUGH cmu_shared_schema;
+sqlplus [privbroker]/@pdb1
+
+SELECT SYS_CONTEXT('USERENV', 'PROXY_USER')  proxy_user
+     , SYS_CONTEXT('USERENV', 'CURRENT_USER') current_user
+     , SYS_CONTEXT('USERENV', 'SESSION_USER') session_user
+     , SYS_CONTEXT('USERENV', 'CURRENT_SCHEMA') current_schema 
+     , sys_context('userenv','enterprise_identity') enterprise_identity
+  FROM dual;
+
+PROXY_USER         CURRENT_USER SESSION_USER CURRENT_SCHEMA ENTERPRISE_IDENTITY
+------------------ ------------ ------------ -------------- ------------------------------------------------
+CMU_SHARED_SCHEMA  PRIVBROKER   PRIVBROKER   PRIVBROKER     cn=Richard C. Evans,cn=Users,dc=DBSECLABS,dc=COM
+
+```
+### Unified Audit policies for proxy users (12c and newer)
+
+```
+
+create audit policy ua_proxy_hr_emp
+actions all on hr.employees
+when 'SYS_CONTEXT(''USERENV'', ''PROXY_USER'') IS NOT NULL'
+evaluate per statement;
+
+audit policy ua_proxy_hr_emp;
+
+select dbusername, dbproxy_username, sql_text   from unified_audit_trail  where regexp_like(unified_audit_policies,'ua_proxy_hr_emp','i')  order by event_timestamp;
+
+```
+
+
+
+
