@@ -92,7 +92,7 @@ SELECT SYS_CONTEXT('USERENV', 'PROXY_USER')  proxy_user
      , sys_context('userenv','proxy_enterprise_identity') proxy_enterprise_identity
   FROM dual;
 
-select * From session_roles;
+select * from session_roles;
 
 ```
 
@@ -147,10 +147,101 @@ evaluate per statement;
 
 audit policy ua_proxy_hr_emp;
 
+connect proxy_dan[privbroker]@pdb1
+select * from hr.employees;
+
+connect proxy_rich[privbroker]@pdb1
+select count(*) from hr.employees;
+
 select dbusername, dbproxy_username, sql_text   from unified_audit_trail  where regexp_like(unified_audit_policies,'ua_proxy_hr_emp','i')  order by event_timestamp;
 
 ```
 
+### Virtual Private Database for proxy users 
 
+```
+
+-- a simple function to apply to a column
+create or replace function hr.foo( p_owner in varchar2, p_name in varchar2 ) return varchar2
+as
+ begin
+  if sys_context( 'userenv', 'PROXY_USER' ) IS NOT NULL
+   then
+    if sys_context( 'userenv', 'PROXY_USER' ) = 'PROXY_DAN'
+     then 
+      return '1=1';
+    else 
+    return '1=0';
+   end if; 
+   else
+    return '1=1';
+  end if;
+end;
+/
+
+-- the VPD policy
+BEGIN
+ DBMS_RLS.ADD_POLICY(object_schema=>'HR'
+  , object_name=>'EMPLOYEES'
+  , policy_name=>'VPD_EMP'
+  , function_schema=>'HR'
+  , policy_function=>'FOO'
+  , sec_relevant_cols=>'PHONE_NUMBER'
+  , sec_relevant_cols_opt=>dbms_rls.ALL_ROWS);
+ END;
+/
+
+```
+
+### Data Redaction policies for proxy users
+
+```
+
+DBMS_REDACT.ADD_POLICY (
+    object_schema 	=> 'HR'
+  , object_name   	=> 'EMPLOYEES'
+  , policy_name   	=> 'HR_EMPLOYEE_REDACT'
+  , expression    	=> 'SYS_CONTEXT(''USERENV'', ''PROXY_USER'') IS NOT NULL AND SYS_CONTEXT(''USERENV'', ''PROXY_USER'') != ''PROXY_DAN'''); 
+
+DBMS_REDACT.ALTER_POLICY (
+    object_schema 	=> 'HR'
+  , object_name 	=> 'EMPLOYEES'
+  , policy_name 	=> 'HR_EMPLOYEE_REDACT'
+  , action 	=> DBMS_REDACT.ADD_COLUMN
+  , column_name 	=> '"PHONE_NUMBER"'
+  , function_type 	=> DBMS_REDACT.FULL );  
+
+```
+
+### Database Vault - Proxy Users
+
+```
+create user proxy_dan identified by Oracle123;
+alter user privbroker grant connect through proxy_dan;
+
+-- as a user with DV_OWNER role
+EXEC DBMS_MACADM.AUTHORIZE_PROXY_USER('PROXY_DAN', 'PRIVBROKER');
+
+connect proxy_dan[privbroker]@pdb1
+select count(*) from employees;
+
+```
+
+### Database Vault roles and proxy users
+
+```
+connect c##dvacctmgr@pdb1
+create user pdb_dvacctmgr no authentication;
+grant create session to pdb_dvacctmgr;
+grant dv_acctmgr to pdb_dvacctmgr;
+alter user pdb_dvacctmgr grant connect through proxy_rich;
+
+connect c##dvowner@pdb1
+EXEC DBMS_MACADM.AUTHORIZE_PROXY_USER('PROXY_RICH', 'PDB_DVACCTMGR');
+
+connect proxy_rich[pdb_dvacctmgr]@pdb1
+create user new_rich identified by Oracle123;
+
+```
 
 
