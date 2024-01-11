@@ -41,3 +41,57 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 
 - Oracle LiveLabs, How Developers Could Use Oracle Database Proxy Authentication: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3785
 
+## Example commands and code
+```
+
+SELECT authentication_type FROM dba_users WHERE username = 'HR';
+ALTER USER hr NO AUTHENTICATION;
+
+CREATE ROLE hradmin;
+GRANT create session TO hradmin;
+GRANT select, insert, update, delete ON hr.employees TO hradmin;
+
+CREATE ROLE hruser;
+GRANT create session TO hruser;
+GRANT read, insert ON hr.employee TO hruser;
+
+CREATE ROLE readonly;
+GRANT create session TO readonly;
+GRANT read TO readonly TO readonly;
+
+CREATE USER privbroker NO AUTHENTICATION TEMPORARY TABLESPACE temp;
+GRANT hradmin, hruser, readonly TO privbroker;
+
+CREATE USER proxy_dan IDENTIFIED BY pd;
+CREATE USER proxy_rich IDENTIFIED BY pr;
+CREATE USER proxy_larry IDENTIFIED BY pl;
+
+ALTER USER privbroker GRANT CONNECT THROUGH proxy_dan WITH ROLE hradmin AUTHENTICATION REQUIRED;
+ALTER USER privbroker GRANT CONNECT THROUGH proxy_rich WITH ROLE hruser AUTHENTICATION REQUIRED;
+ALTER USER privbroker GRANT CONNECT THROUGH proxy_larry WITH ROLE readonly AUTHENTICATION REQUIRED;
+
+-- traditional audit policy (19c and older)
+AUDIT CONNECT BY proxy_dan ON BEHALF OF privbroker;
+AUDIT CONNECT BY proxy_rich ON BEHALF OF privbroker;
+AUDIT CONNECT BY proxy_larry ON BEHALF OF privbroker;
+
+column proxy_user format a20
+column current_user format a12
+column session_user format a12
+column current_schema format a14
+column enterprise_identity format a61
+column proxy_enterprise_identity format a61
+
+set lines 140
+
+SELECT SYS_CONTEXT('USERENV', 'PROXY_USER')  proxy_user
+     , SYS_CONTEXT('USERENV', 'CURRENT_USER') current_user
+     , SYS_CONTEXT('USERENV', 'SESSION_USER') session_user
+     , SYS_CONTEXT('USERENV', 'CURRENT_SCHEMA') current_schema 
+     , sys_context('userenv','enterprise_identity') enterprise_identity
+     , sys_context('userenv','proxy_enterprise_identity') proxy_enterprise_identity
+  FROM dual;
+
+select * From session_roles;
+
+```
