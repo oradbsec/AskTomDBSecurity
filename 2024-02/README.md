@@ -9,6 +9,10 @@ If you'd like to ask your question privately, please email me at richard c evans
 
 After the session, they will be posted to AskTom DB Security Office Hours: bit.ly/asktomdbsec
 
+# Announcements
+
+- DBSAT 3.1 available for download at https://support.oracle.com (Note 2138254.1)
+
 ## Critical Patches and Updates
 
 - For Critical Patch Updates, Security Alerts, and Bulletins for all Oracle products please see: https://www.oracle.com/security-alerts
