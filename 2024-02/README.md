@@ -33,7 +33,7 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 
 - Download Oracle 23c FREE from https://www.oracle.com/database/free/
 
-## Next steps to learn more about Oracle Data Safe
+## Next steps to learn more about Oracle Data Safe on Oracle LiveLabs
 
-- Oracle LiveLabs, Get Started with Oracle Data Safe Fundamentals: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=598
-
+- Get Started with Oracle Data Safe Fundamentals: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=598
+- Oracle Data Safe for on-premises databases: https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=930
