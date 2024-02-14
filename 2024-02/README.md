@@ -28,6 +28,7 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 - Introduction to Data Safe (video): https://docs.oracle.com/en/cloud/paas/data-safe/index.html
 - Integrate Data Safe with Applications & Services (LiveLab): https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=598
 - Oracle Data Safe for on-premises databases (LiveLab): https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=930
+- Integrate Oracle Data Safe with Applications and Services (LiveLab): https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3596
 - DB Security – SQL Firewall (LiveLab): https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3875
 - Admin Guide: https://docs.oracle.com/en/cloud/paas/data-safe/admds/index.html
 - User Guide: https://docs.oracle.com/en/cloud/paas/data-safe/udscs/index.html
