@@ -33,7 +33,7 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 ## Oracle Documentation
 
 - Oracle Audit Vault & Database Firewall: https://www.oracle.com/security/database-security/audit-vault-database-firewall/
-- Documentation: https://docs.oracle.com/en/cloud/paas/data-safe/
+- Documentation: https://docs.oracle.com/en/database/oracle/audit-vault-database-firewall/index.html
 
 ## Oracle LiveLabs
 
