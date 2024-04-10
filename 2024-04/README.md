@@ -40,9 +40,10 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 
 - Database Security Assessment Tool 3.0 is now available: https://blogs.oracle.com/cloudsecurity/post/database-security-assessment-tool-3-0-now-available
 
-## Oracle Tech Lounge 
+## Oracle Database Security webinars and events
 
 - Upcoming (and recorded) technical presentations here: https://go.oracle.com/LP=137345?elqCampaignId=468926
+- OCI – Introducing Oracle SQL Firewall as Part Of 23c (EMEA): https://community.oracle.com/customerconnect/events/605371-oci-introducing-oracle-sql-firewall-as-part-of-23c-emea/
 
 ## Oracle 23c FREE Developer Release
 
