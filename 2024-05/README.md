@@ -32,7 +32,27 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 
 ## Oracle LiveLabs
 
-- Oracle LiveLabs, Oracle Key Vault: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=727
+- Protect Data with Row-Level and Column-Level Security using Oracle VPD: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3786
+- Database Security - SQL Firewall: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3875
+- Successfully protect your database communication using 1-way Transport Layer Security (TLS): https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3631
+- Getting Started with Oracle Data Safe Fundamentals: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=598
+- Database Security Basics: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=698
+- Database Security - Audit Vault and DB Firewall: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=711
+- DB Security - ASO ( Transparent Data Encryption & Data Redaction ): https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=703
+- DB Security - Key Vault: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=727
+- DB Security Advanced: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=726
+- DB Security - Data Masking and Subsetting: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=704
+- DB Security - Database Vault: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=682
+- DB Security - Database Security Assessment Tool (DBSAT): https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=699
+- Tales from the Dark Side: Hacking the Database: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3300
+- DB Security - Unified Auditing: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=702
+- DB Security - Label Security: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=676
+- DB Security - Native Network Encryption: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=700
+- DB Security - Privilege Analysis: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=701
+- Oracle Database 19c New Features - Security: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=941
+- Get Started with Oracle Database 21c Security: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=941
+- DB Security - Transparent Sensitive Data Protection: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=820
+- DB Security - Advanced Compression and Transparent Data Encryption (TDE): https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3720
 
 ## Recent posts on our Oracle Security blog
 
