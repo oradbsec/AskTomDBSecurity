@@ -60,11 +60,14 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 
 ## Oracle Database Security webinars and events
 
-- Upcoming (and recorded) technical presentations here: https://go.oracle.com/LP=137345?elqCampaignId=468926
+- Oracle Tech Lounge: https://go.oracle.com/LP=137345?elqCampaignId=468926
+  - On-demand: https://go.oracle.com/LP=137345?elqCampaignId=468926#On-Demand-Webinars
+- Oracle Database World: May 14th https://www.oracle.com/database/databaseworld/ai-edition/
+  - Protect Against Common Database Attacks with Oracle SQL Firewall
+
 
 ## Oracle Database 23ai 
 
 - Oracle Database 23ai Security Guide: https://docs.oracle.com/en/database/oracle/oracle-database/23/dbseg/index.html
-
 
 
