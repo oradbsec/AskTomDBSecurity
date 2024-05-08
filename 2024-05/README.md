@@ -9,7 +9,7 @@ If you'd like to ask your question privately, please email me at richard c evans
 
 After the session, they will be posted to AskTom DB Security Office Hours: bit.ly/asktomdbsec
 
-# Announcements
+## Announcements
 
 - DBSAT 3.1 available for download at https://support.oracle.com (Note 2138254.1)
 - Oracle Database 19c RU 22 (19.22) supports v2 OAuth2 tokens for Microsoft Entra ID authentication: https://docs.oracle.com/en/database/oracle/oracle-database/19/dbseg/authenticating-and-authorizing-microsoft-azure-active-directory-users-oracle-databases.html
@@ -20,6 +20,15 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 - For patch numbers and more details see My Oracle Support (MOS) Note: 2118136.2 
 - Fleet Patching and Provisioning: https://docs.oracle.com/en/database/oracle/oracle-database/19/cwadd/rapid-home-provisioning.html
 - CPU Program Oct 2022 Patch Availability Document (DB-only) (Doc ID 2888497.1)	
+
+## Product updates
+
+- Oracle Data Safe pre-masking check: https://docs.oracle.com/en/cloud/paas/data-safe/udscs/masking-check.html#GUID-B8AA8752-DB15-4172-94E2-9A8ADA8596D8
+- Support for Oracle Database@Azure: https://docs.oracle.com/en/cloud/paas/data-safe/admds/register-oracle-cloud-database.html#GUID-F75522C5-5D6C-499C-875C-228ADE00472A
+- The on-premises connector can now be started as an OS service: https://docs.oracle.com/en/cloud/paas/data-safe/admds/create-oracle-data-safe-onpremises-connector1.html#GUID-1E8D8393-980C-49E2-9A59-BC0569CDD09D
+- New Data Safe OCI events added for private endpoint: https://docs.oracle.com/en/cloud/paas/data-safe/admds/event-types-oracle-data-safe.html#ADMDS-GUID-138DA384-020F-4783-ADD8-F08E61E501D3
+- New Data Safe OCI events added for audit trails: https://docs.oracle.com/en/cloud/paas/data-safe/udscs/view-and-manage-violations-report.html#UDSCS-GUID-E2234E5D-BE7B-4016-8AB6-0D42872A839A
+
 
 ## Oracle documentation, blogs, and videos
 
@@ -64,7 +73,6 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
   - On-demand: https://go.oracle.com/LP=137345?elqCampaignId=468926#On-Demand-Webinars
 - Oracle Database World: May 14th https://www.oracle.com/database/databaseworld/ai-edition/
   - Protect Against Common Database Attacks with Oracle SQL Firewall
-
 
 ## Oracle Database 23ai 
 
