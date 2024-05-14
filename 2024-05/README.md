@@ -78,4 +78,8 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 
 - Oracle Database 23ai Security Guide: https://docs.oracle.com/en/database/oracle/oracle-database/23/dbseg/index.html
 
+## Oracle Unified Auditing
+
+- MOS Doc ID 2909718.1 - Traditional to Unified Audit Syntax Converter
+- Oracle Database Unified Audit: Best Practice Guidelines: https://www.oracle.com/docs/tech/dbsec/unified-audit-best-practice-guidelines.pdf
 
