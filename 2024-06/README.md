@@ -36,12 +36,11 @@ For Oracle employees, your session will be available on OTube.
 - Oracle Database 23ai New Features: https://docs.oracle.com/en/database/oracle/oracle-database/23/nfcoa/
 - Oracle Database 23ai Security Guide: https://docs.oracle.com/en/database/oracle/oracle-database/23/dbseg/index.html
   - Chapter 8: Authenticating and authorizationg Microsoft Azure Active Directory Users for Oracle Databases: https://docs.oracle.com/en/database/oracle/oracle-database/19/dbseg/authenticating-and-authorizing-microsoft-azure-active-directory-users-oracle-databases.html
+- Connect Microsoft Tools to Oracle Databases: https://www.oracle.com/database/technologies/appdev/ocmt.html
 - A previous Oracle AskTOM Database Security Office Hours on Azure AD integration: https://www.youtube.com/watch?v=GkrulRzlNYI&t=421s
 - YouTube playlist, Azure AD OAuth2 Tokens for Oracle Database: https://www.youtube.com/playlist?list=PLdtXkK5KBY57zO3S1jMYfhjS1NveNcqAL
 - Oracle Cloud Security blog post
   - Oracle Autonomous Database users can now be authenticated and managed with Azure Active Directory: https://blogs.oracle.com/cloudsecurity/post/azure-active-directory-can-authenticate-database-users
-
-
 
 ## Oracle LiveLabs
 
@@ -82,8 +81,6 @@ For Oracle employees, your session will be available on OTube.
 
 - Oracle Database 23ai Security Guide: https://docs.oracle.com/en/database/oracle/oracle-database/23/dbseg/index.html
 
-## Oracle Unified Auditing
 
-- Connect Microsoft Tools to Oracle Databases: https://www.oracle.com/database/technologies/appdev/ocmt.html
 
 
