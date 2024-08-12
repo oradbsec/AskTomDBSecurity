@@ -1,0 +1,3 @@
+# Database Security Office Hours
+# August 2024
+# Using the Maximum Security Architecture to simplify database security
