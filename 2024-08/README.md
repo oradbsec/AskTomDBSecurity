@@ -35,8 +35,14 @@ For Oracle employees, your session will be available on OTube.
 - Oracle Key Vault 21.9: https://docs.oracle.com/en/database/oracle/key-vault/21.9/index.html
 - Oracle Database Security documentation: https://docs.oracle.com/en/database/oracle/oracle-database/23/security.html
 
-### My Oracle Support Notes
+## My Oracle Support Notes
 
+- Information Center: Overview of Database Security Products (Doc ID 1548952.2)
+- Information Center: Using Database Security Products (Doc ID 1548954.2)
+- 
+## Links from the presentation
+
+- APT41 Has Arisen From the DUST: https://cloud.google.com/blog/topics/threat-intelligence/apt41-arisen-from-dust
 
 
 ## Oracle LiveLabs
