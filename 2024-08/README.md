@@ -39,7 +39,9 @@ For Oracle employees, your session will be available on OTube.
 
 - Information Center: Overview of Database Security Products (Doc ID 1548952.2)
 - Information Center: Using Database Security Products (Doc ID 1548954.2)
-- 
+- Release Schedule of Current Database Releases (Doc ID 742060.1)	
+- Oracle Database (RDBMS) Releases Support Status Summary (Doc ID 161818.1)	
+  
 ## Links from the presentation
 
 - APT41 Has Arisen From the DUST: https://cloud.google.com/blog/topics/threat-intelligence/apt41-arisen-from-dust
