@@ -1,6 +1,6 @@
 # Database Security Office Hours
 # October 2024
-# 
+# Streamline Your transition from traditional to Unified Auditing
 
 ### I have a question I don't want to ask in the pubic forum. 
 
@@ -35,6 +35,7 @@ For Oracle employees, your session will be available on OTube.
 - Oracle Data Safe updates: https://docs.oracle.com/en-us/iaas/releasenotes/changes/8144f390-f211-40cd-95cd-a622dc3af318/index.htm
 - Oracle Key Vault 21.9: https://docs.oracle.com/en/database/oracle/key-vault/21.9/index.html
 - Oracle Database Security documentation: https://docs.oracle.com/en/database/oracle/oracle-database/23/security.html
+- 
 
 ## My Oracle Support Notes
 
@@ -45,7 +46,12 @@ For Oracle employees, your session will be available on OTube.
   
 ## Links from the presentation
 
-
+- Support Note 2909718.1: Traditional to Unified Audit Syntax Converter - Generate Unified Audit Policies from Current Traditional Audit Configuration
+- 19c AUDIT (Unified Auditing): https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/AUDIT-Unified-Auditing.html
+- 23ai AUDIT (Unified Auditing): https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/AUDIT-Unified-Auditing.html
+- 23ai Introduction to Auditing: https://docs.oracle.com/en/database/oracle/oracle-database/23/dbseg/introduction-to-auditing.html
+- Support Note 2485457.1: AutoUpgrade Tool
+- Support Note 1901113.1: SRDC - How to Collect Standard Information for Database Auditing
 
 ## Oracle LiveLabs
 
@@ -71,8 +77,9 @@ For Oracle employees, your session will be available on OTube.
 - DB Security - Transparent Sensitive Data Protection: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=820
 - DB Security - Advanced Compression and Transparent Data Encryption (TDE): https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3720
 
-## Recent posts on our Oracle Security blog
+## Posts on our Oracle Security blog
 
+- Oracle’s defense in-depth and least-privilege practices to protect customers from insider threat: https://blogs.oracle.com/cloudsecurity/post/defense-indepth-leastprivilege-practices-insider-threat
 - Database Security Assessment Tool 3.1 is now available: https://blogs.oracle.com/cloudsecurity/post/database-security-assessment-tool-3-0-now-available
 
 ## Oracle Database Security webinars and events
