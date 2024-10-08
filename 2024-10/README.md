@@ -45,12 +45,12 @@ For Oracle employees, your session will be available on OTube.
   
 ## Links from the presentation
 
-- Support Note 2909718.1: Traditional to Unified Audit Syntax Converter - Generate Unified Audit Policies from Current Traditional Audit Configuration
+- Support Note 2909718.1: Traditional to Unified Audit Syntax Converter - Generate Unified Audit Policies from Current Traditional Audit Configuration: https://support.oracle.com/knowledge/Oracle%20Database%20Products/2909718_1.html
 - 19c AUDIT (Unified Auditing): https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/AUDIT-Unified-Auditing.html
 - 23ai AUDIT (Unified Auditing): https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/AUDIT-Unified-Auditing.html
 - 23ai Introduction to Auditing: https://docs.oracle.com/en/database/oracle/oracle-database/23/dbseg/introduction-to-auditing.html
-- Support Note 2485457.1: AutoUpgrade Tool
-- Support Note 1901113.1: SRDC - How to Collect Standard Information for Database Auditing
+- Support Note 2485457.1: AutoUpgrade Tool: https://support.oracle.com/epmos/faces/DocumentDisplay?id=2485457.1
+- Support Note 1901113.1: SRDC - How to Collect Standard Information for Database Auditing: https://support.oracle.com/knowledge/Oracle%20Cloud/1931103_1.html
 
 ## Oracle LiveLabs
 
