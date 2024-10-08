@@ -35,7 +35,6 @@ For Oracle employees, your session will be available on OTube.
 - Oracle Data Safe updates: https://docs.oracle.com/en-us/iaas/releasenotes/changes/8144f390-f211-40cd-95cd-a622dc3af318/index.htm
 - Oracle Key Vault 21.9: https://docs.oracle.com/en/database/oracle/key-vault/21.9/index.html
 - Oracle Database Security documentation: https://docs.oracle.com/en/database/oracle/oracle-database/23/security.html
-- 
 
 ## My Oracle Support Notes
 
