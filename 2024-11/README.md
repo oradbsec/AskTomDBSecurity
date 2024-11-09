@@ -8,9 +8,9 @@ If you'd like to ask your question privately, please email me at richard c evans
 
 ## Where do I find the recordings? 
 
-After the session, they will be posted to AskTom DB Security Office Hours: https://asktom.oracle.com/ords/r/tech/catalog/series-landing-page?p5_series_id=339825187736628088957543076199215576315
-For Oracle partners, your session will be available on the Oracle Partner Network page.
-For Oracle employees, your session will be available on OTube. 
+- After the session, they will be posted to AskTom DB Security Office Hours: https://asktom.oracle.com/ords/r/tech/catalog/series-landing-page?p5_series_id=339825187736628088957543076199215576315
+- For Oracle partners, your session will be available on the Oracle Partner Network page.
+- For Oracle employees, your session will be available on OTube. 
 
 ## Announcements
 
