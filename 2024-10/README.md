@@ -2,7 +2,7 @@
 # October 2024
 # Streamline Your transition from traditional to Unified Auditing
 
-### I have a question I don't want to ask in the pubic forum. 
+## I have a question I don't want to ask in the pubic forum. 
 
 If you'd like to ask your question privately, please email me at richard c evans _at_ that oracle company that makes amazing database software dot com 
 
