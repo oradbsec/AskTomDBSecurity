@@ -86,4 +86,8 @@ For Oracle employees, your session will be available on OTube.
 
 - Oracle Tech Lounge: https://go.oracle.com/LP=137345?elqCampaignId=468926
   - On-demand: https://go.oracle.com/LP=137345?elqCampaignId=468926#On-Demand-Webinars
+ 
+## Sample code
+
+- Check out this file for the example: https://github.com/oradbsec/AskTomDBSecurity/blob/main/2024-11/dbsec_office_hours_examples.sql
 
