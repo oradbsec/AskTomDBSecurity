@@ -272,7 +272,7 @@ BEGIN
   column_name 	   => 'EMAIL',
   function_type     => DBMS_REDACT.REGEXP,
   regexp_pattern    => DBMS_REDACT.RE_PATTERN_EMAIL_ADDRESS,
-  regexp_replace_string => DBMS_REDACT.RE_REDACT_EMAIL_NAME
+  regexp_replace_string => DBMS_REDACT.RE_REDACT_EMAIL_DOMAIN
  );
 END;
 /
@@ -284,7 +284,7 @@ select email from t1 where last_name = 'Jones';
 
 BEGIN
  DBMS_REDACT.CREATE_POLICY_EXPRESSION(
-  policy_expression_name => 'REDACT_UNLESS_ANALYTICS',
+  policy_expression_name => 'REDACT_UNLESS_SH1',
   expression => 'SYS_CONTEXT(''USERENV'', ''SESSION_USER'') != ''SH1''');
 END;
 /
