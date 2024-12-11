@@ -48,6 +48,12 @@ If you'd like to ask your question privately, please email me at richard c evans
 - Zero Data Loss Recovery Appliance: https://www.oracle.com/engineered-systems/zero-data-loss-recovery-appliance/
 - Zero Data Loss Recovery Appliance Architectures for Ransomware Protection and Cyber-Resilience: https://blogs.oracle.com/maa/post/zero-data-loss-recovery-appliance-architectures-for-ransomware-protection-and-cyberresilience
 - Ransomware Protection and Cyber-Resilience with Zero Data Loss Recovery Appliance: https://www.oracle.com/technetwork/database/features/availability/zdlra-cyber-security-brief-11746785.pdf
+- Zero Data Loss Autonomous Recovery Service: https://www.oracle.com/database/zero-data-loss-autonomous-recovery-service/
+
+- AskTOM Backup & Recovery Office Hours: https://asktom.oracle.com/ords/r/tech/catalog/series-landing-page?p5_series_id=1324315180218357785683422494484787420&session=5539467214215
+-	Strengthen Oracle Database Cyber Defense and Recovery with Zero Data Loss Air Gapped Backups: https://youtu.be/OmLp87CngaY
+-	Ransomware Protection and Cyber-Resilient Architectures with Zero Data Loss Recovery Appliance: https://youtu.be/6MtfZR7vmhs
+
 
 ## Oracle LiveLabs
 
@@ -84,7 +90,7 @@ If you'd like to ask your question privately, please email me at richard c evans
 - Oracle Tech Lounge: https://go.oracle.com/LP=137345?elqCampaignId=468926
   - On-demand: https://go.oracle.com/LP=137345?elqCampaignId=468926#On-Demand-Webinars
  
-## Sample code
 
-- Check out this file for the example: https://github.com/oradbsec/AskTomDBSecurity/blob/main/2024-11/dbsec_office_hours_examples.sql
+
+
 
