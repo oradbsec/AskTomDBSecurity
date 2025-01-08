@@ -15,6 +15,9 @@ If you'd like to ask your question privately, please email me at richard c evans
 ## Announcements
 
 - Oracle Database 19c RU 22 (19.22) supports v2 OAuth2 tokens for Microsoft Entra ID authentication: https://docs.oracle.com/en/database/oracle/oracle-database/19/dbseg/authenticating-and-authorizing-microsoft-azure-active-directory-users-oracle-databases.html
+- Streamline Data Masking and Subsetting in Enterprise Manager 24ai: https://blogs.oracle.com/database/post/dms24ai
+- What's new in Oracle Key Vault 21.10: https://blogs.oracle.com/database/post/okv2110
+- Oracle Data Masking and Subsetting on Enterprise Manager 24ai: https://livelabs.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=704
 
 ## Critical Patches and Updates
 
@@ -25,7 +28,8 @@ If you'd like to ask your question privately, please email me at richard c evans
 
 ## Product updates
 
-- Introducing custom alert policies in Oracle Data Safe: https://blogs.oracle.com/database/post/data-safe-custom-alerts
+- Streamline Data Masking and Subsetting in Enterprise Manager 24ai: https://blogs.oracle.com/database/post/dms24ai
+- What's new in Oracle Key Vault 21.10: https://blogs.oracle.com/database/post/okv2110
 
 ## Oracle documentation, blogs, and videos
 
@@ -74,11 +78,13 @@ If you'd like to ask your question privately, please email me at richard c evans
 - Get Started with Oracle Database 21c Security: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=941
 - DB Security - Transparent Sensitive Data Protection: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=820
 - DB Security - Advanced Compression and Transparent Data Encryption (TDE): https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3720
+- Oracle Data Masking and Subsetting on Enterprise Manager 24ai: https://livelabs.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=704
 
 ## Posts on our Oracle Security blog
 
 - Oracle’s defense in-depth and least-privilege practices to protect customers from insider threat: https://blogs.oracle.com/cloudsecurity/post/defense-indepth-leastprivilege-practices-insider-threat
 - Database Security Assessment Tool 3.1 is now available: https://blogs.oracle.com/cloudsecurity/post/database-security-assessment-tool-3-0-now-available
+- Getting Database Security In Shape: https://blogs.oracle.com/cloudsecurity/post/getting-database-security-in-shape
 
 ## Oracle Database Security webinars and events
 
