@@ -30,6 +30,9 @@ If you'd like to ask your question privately, please email me at richard c evans
 
 - Streamline Data Masking and Subsetting in Enterprise Manager 24ai: https://blogs.oracle.com/database/post/dms24ai
 - What's new in Oracle Key Vault 21.10: https://blogs.oracle.com/database/post/okv2110
+- User Assessment – New graph for users with expiring passwords: https://docs.oracle.com/en/cloud/paas/data-safe/udscs/potential-user-risk-user-roles-last-password-change-last-login-and-password-expiry-date-charts.html
+- Sensitive Data Discovery – export/import user-def. sensitive types: https://docs.oracle.com/en/cloud/paas/data-safe/udscs/manage-sensitive-types.html#GUID-38FBC835-05DD-4121-8B7E-CE4E195F9FC8
+- Discovery/Masking – supporting composite keys in relationships: https://docs.oracle.com/en/cloud/paas/data-safe/udscs/update-sensitive-data-models.html#GUID-DC780FAC-A4C0-4988-B366-1D5606B97F44
 
 ## Oracle documentation, blogs, and videos
 
