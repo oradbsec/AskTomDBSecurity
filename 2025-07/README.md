@@ -48,6 +48,8 @@ If you'd like to ask your question privately, please email me at richard c evans
   
 ## Links from the presentation
 
+- Oracle Key Vault releases 21.9 through 21.11 are available in the Oracle Cloud Marketplace: https://cloudmarketplace.oracle.com/marketplace/app/OracleKeyVault
+- Fetching database account passwords from Oracle Key Vault (update for 21.6): https://youtu.be/nqgVAjLIKA0
 - Database Vault for Oracle Autonomous Database (ADB-S): https://docs.oracle.com/en-us/iaas/autonomous-database-serverless/doc/autonomous-database-vault.html
 - Database Vault for Oralce Autonomous Database (ADB-D) Dedicated Exadata Infrastructure: https://docs.oracle.com/en/cloud/paas/autonomous-database/dedicated/adbai/index.html#GUID-B594D97E-D185-4B0F-9000-EC8E8A2207DA
 - Oracle Database Vault Getting Started Guide (valid for 19c and 23ai): https://docs.oracle.com/en/database/oracle/oracle-database/23/dvgsg/index.html
@@ -56,7 +58,6 @@ If you'd like to ask your question privately, please email me at richard c evans
 
 ## Oracle LiveLabs
 
-- DB Security - Key Vault (SSH Key Management): https://livelabs.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3937
 - Oracle Data Redacation on Autonomous Database: https://livelabs.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=4061
 - Protect Data with Row-Level and Column-Level Security using Oracle VPD: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3786
 - Database Security - SQL Firewall: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3875
@@ -65,6 +66,7 @@ If you'd like to ask your question privately, please email me at richard c evans
 - Database Security Basics: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=698
 - Database Security - Audit Vault and DB Firewall: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=711
 - DB Security - ASO ( Transparent Data Encryption & Data Redaction ): https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=703
+- DB Security - Key Vault (SSH Key Management): https://livelabs.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3937
 - DB Security - Key Vault: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=727
 - DB Security Advanced: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=726
 - DB Security - Data Masking and Subsetting: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=704
@@ -83,6 +85,7 @@ If you'd like to ask your question privately, please email me at richard c evans
 
 ## Posts on our Oracle Security blog
 
+- Getting Started with Exadata Database Service on Oracle Database@AWS: https://blogs.oracle.com/database/post/getting-started-with-exadata-database-service-on-oracle-databaseaws
 - Oracle’s defense in-depth and least-privilege practices to protect customers from insider threat: https://blogs.oracle.com/cloudsecurity/post/defense-indepth-leastprivilege-practices-insider-threat
 - Database Security Assessment Tool 3.1 is now available: https://blogs.oracle.com/cloudsecurity/post/database-security-assessment-tool-3-0-now-available
 - Getting Database Security In Shape: https://blogs.oracle.com/cloudsecurity/post/getting-database-security-in-shape
