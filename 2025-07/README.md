@@ -55,6 +55,8 @@ If you'd like to ask your question privately, please email me at richard c evans
 - Oracle Database Vault Getting Started Guide (valid for 19c and 23ai): https://docs.oracle.com/en/database/oracle/oracle-database/23/dvgsg/index.html
 - Oracle Database Vault Administrator's Guide for 19c: https://docs.oracle.com/en/database/oracle/oracle-database/19/dvadm/
 - Oracle Database Vault Administrator's Guide for 23ai: https://docs.oracle.com/en/database/oracle/oracle-database/23/dvadm/
+- Oracle SQL Developer Extension for VSCode: https://marketplace.visualstudio.com/items?itemName=Oracle.sql-developer
+
 
 ## Oracle LiveLabs
 
