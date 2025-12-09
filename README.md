@@ -5,6 +5,9 @@ This repository will host the links we share in our monthly AskTom Database Secu
 
 All links shared are available either public or available to Oracle customers with an active support subscription. 
 
-To subscribe to AskTom DB Security Office Hours, please visit https://bit.ly/asktomdbsec
+To subscribe to AskTom DB Security Office Hours, please visit the series page that fits your working hours:
 
-If you are an Oracle Partner, you can subscribe to Oracle Database Security Office Hours for Partners on OPN: https://www.oracle.com/opn/secure/get-enabled/partnercasts/product-channel/platform/index.html#database
+- Oracle Database Security Office Hours - Americas/EMEA: https://asktom.oracle.com/ords/r/tech/catalog/series-landing-page?p5_series_id=339825187736628088957543076199215576315
+- Oracle Database Security Office Hours - APAC: https://asktom.oracle.com/ords/r/tech/catalog/session-landing-page?p2_event_id=85852640005675946887449214775445880748
+
+Both series are recorded and available on the series page. 
