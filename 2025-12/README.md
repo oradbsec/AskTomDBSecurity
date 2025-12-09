@@ -1,5 +1,5 @@
 # Database Security Office Hours
-# December 2025 - Oracle DB Security: A year in review and a sneak peek at 2026
+## December 2025 - Oracle DB Security: A year in review and a sneak peek at 2026
 ### I have a question I don't want to ask in the pubic forum. 
 
 If you'd like to ask your question privately, please email me at richard c evans _at_ that oracle company that makes amazing database software dot com 
