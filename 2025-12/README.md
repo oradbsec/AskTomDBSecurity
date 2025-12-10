@@ -38,6 +38,18 @@ If you'd like to ask your question privately, please email me at richard c evans
 - Get Started with Oracle Data Safe Fundamentals: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=598
 - Oracle Data Safe for On-Premises Databases: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=930
 
+- Streamlining the transition to Unified Auditing: https://www.youtube.com/watch?v=oRr7rLTGrug
+Give SCOTT/TIGER Teeth: Oracle Database Multifactor Authentication (MFA) is Here: https://blogs.oracle.com/database/new-mfa-jul2025
+- Enhancement Request 36989926: Certificate authentication by thumbprint (planned availability in CY2026)
+- Securing Oracle AI Database 26ai for the Quantum Era: https://blogs.oracle.com/database/oracle-ai-database-26ai-pqc
+- Data Safe release notes: https://docs.oracle.com/en-us/iaas/releasenotes/services/data-safe/index.htm
+- Simplifying Database Security Compliance at Scale with Oracle Data Safe: https://blogs.oracle.com/database/simplifying-database-security-compliance-at-scale-with-oracle-data-safe
+- Keep your Oracle Audit Vault and Database Firewall (AVDF) Deployment Up to Date: Apply the 20.16 Release Update and Discover Our 5-Year Transformation: https://blogs.oracle.com/database/avdf20-16
+- Celebrating 5 Years of Innovation with Oracle Audit Vault and Database Firewall (AVDF): https://blogs.oracle.com/database/avdf20-5years
+- Oracle Key Vault: Extending deeper into your environment: https://blogs.oracle.com/database/okv2112
+- Peter has a great set of blogs available to you on both TDE, SSH key management, Key Vault, and more: https://blogs.oracle.com/authors/peter-wahl-author
+
+
 ## Oracle LiveLabs
 
 - Oracle Data Redacation on Autonomous Database: https://livelabs.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=4061
