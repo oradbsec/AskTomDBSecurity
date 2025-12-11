@@ -34,10 +34,7 @@ If you'd like to ask your question privately, please email me at richard c evans
   
 ## Links from the presentation
 
-- Data Safe Getting Started: https://docs.oracle.com/en/cloud/paas/data-safe/
-- Get Started with Oracle Data Safe Fundamentals: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=598
-- Oracle Data Safe for On-Premises Databases: https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=930
-
+- Release Schedule of Current Database Releases: https://support.oracle.com/support/?kmContentId=742060&page=sptemplate&sptemplate=km-article
 - Streamlining the transition to Unified Auditing: https://www.youtube.com/watch?v=oRr7rLTGrug
 Give SCOTT/TIGER Teeth: Oracle Database Multifactor Authentication (MFA) is Here: https://blogs.oracle.com/database/new-mfa-jul2025
 - Enhancement Request 36989926: Certificate authentication by thumbprint (planned availability in CY2026)
