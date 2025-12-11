@@ -1,6 +1,6 @@
 # Oracle Database Security Office Hours
-# December 2025
-# Oracle DB Security: A year in review and a sneak peek at 2026
+# November 2025
+# Securing the Modern Data Platform with Oracle Key Vault
 
 ### I have a question I don't want to ask in the pubic forum. 
 
