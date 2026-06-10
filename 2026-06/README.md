@@ -34,16 +34,24 @@ If you'd like to ask your question privately, please email me at richard c evans
   
 ## Links from the presentation
 
-- Oracle Deep Data Security Configuration Guide: https://docs.oracle.com/en/database/oracle/oracle-database/26/ddscg/index.html
-- Website updates: https://www.oracle.com/security/database-security/features/deep-data-security/
-- Announcement blog: https://blogs.oracle.com/database/introducing-oracle-deep-data-security-identity-aware-data-access-control-for-agentic-ai-in-oracle-ai-database-26ai
-- Technical Whitepaper: https://www.oracle.com/a/ocom/docs/security/deep-data-security-technical-brief.pdf
-- FastLab - Getting Started with Oracle Deep Data Security: https://livelabs.oracle.com/ords/r/dbpm/livelabs/run-workshop?p210_wid=4393
-- FastLab - Identity-Aware Database Access with Microsoft Entra ID and Oracle Deep Data Security: https://livelabs.oracle.com/ords/r/dbpm/livelabs/run-workshop?p210_wid=4396
-- python-oracledb: https://github.com/oracle/python-oracledb
-- Oracle JDBC Driver Extensions: https://github.com/oracle/ojdbc-extensions
-- Oracle.ManagedDataAccess 23.26.200: https://www.nuget.org/packages/Oracle.ManagedDataAccess
-- Oracle.ManagedDataAccess.Core: https://www.nuget.org/packages/Oracle.ManagedDataAccess.Core
+### DMS
+- Webpage: https://www.oracle.com/security/database-security/data-masking/ 
+- DMS Guide: https://docs.oracle.com/en/database/oracle/oracle-database/26/dmksb/index.html 
+- Licensing User Manual: https://docs.oracle.com/en/database/oracle/oracle-database/19/dblic/index.html 
+- Oracle Data Masking and Subsetting expands to discover 150+ new sensitive data types: https://blogs.oracle.com/database/dms24ai-adds-new-types
+- Streamline Data Masking and Subsetting in Enterprise Manager 24ai: https://blogs.oracle.com/observability/streamline-data-masking-subsetting-enterprise-manager-24ai 
+- FAQ: https://www.oracle.com/a/tech/docs/dbsec/dms/oracle-dms-faq-external-2019.pdf 
+- LiveLabs: https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=704&clear=RR,180&session=100162317346798 
+- AskTom: https://www.youtube.com/watch?v=5jG74fYHypk 
+- Enterprise Manager Best Practices: https://docs.oracle.com/en/database/oracle/oracle-database/26/tdppt/enterprise-manager-best-practices.html
+
+### Data Safe
+- Webpage: https://www.oracle.com/security/database-security/data-safe/ 
+- LiveLab: https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=598&clear=RR,180&session=103978510819097 
+- Simplifying Database Security Compliance at Scale with Oracle Data Safe: https://blogs.oracle.com/database/simplifying-database-security-compliance-at-scale-with-oracle-data-safe 
+- Documentation: https://docs.oracle.com/en/cloud/paas/data-safe/ 
+- Faq: https://www.oracle.com/security/database-security/data-safe/faq/ 
+- Technical Architecture Documentation: https://docs.oracle.com/en/cloud/paas/data-safe/dsiad/datasafe_overview.html 
 
 ## Oracle LiveLabs
 
