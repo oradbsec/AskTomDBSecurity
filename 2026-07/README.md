@@ -34,24 +34,17 @@ If you'd like to ask your question privately, please email me at richard c evans
   
 ## Links from the presentation
 
-### DMS
+### Deep Data Security and development
 - Webpage: https://www.oracle.com/security/database-security/data-masking/ 
-- DMS Guide: https://docs.oracle.com/en/database/oracle/oracle-database/26/dmksb/index.html 
-- Licensing User Manual: https://docs.oracle.com/en/database/oracle/oracle-database/19/dblic/index.html 
-- Oracle Data Masking and Subsetting expands to discover 150+ new sensitive data types: https://blogs.oracle.com/database/dms24ai-adds-new-types
-- Streamline Data Masking and Subsetting in Enterprise Manager 24ai: https://blogs.oracle.com/observability/streamline-data-masking-subsetting-enterprise-manager-24ai 
-- FAQ: https://www.oracle.com/a/tech/docs/dbsec/dms/oracle-dms-faq-external-2019.pdf 
-- LiveLabs: https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=704&clear=RR,180&session=100162317346798 
-- AskTom: https://www.youtube.com/watch?v=5jG74fYHypk 
-- Enterprise Manager Best Practices: https://docs.oracle.com/en/database/oracle/oracle-database/26/tdppt/enterprise-manager-best-practices.html
-
-### Data Safe
-- Webpage: https://www.oracle.com/security/database-security/data-safe/ 
-- LiveLab: https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=598&clear=RR,180&session=103978510819097 
-- Simplifying Database Security Compliance at Scale with Oracle Data Safe: https://blogs.oracle.com/database/simplifying-database-security-compliance-at-scale-with-oracle-data-safe 
-- Documentation: https://docs.oracle.com/en/cloud/paas/data-safe/ 
-- Faq: https://www.oracle.com/security/database-security/data-safe/faq/ 
-- Technical Architecture Documentation: https://docs.oracle.com/en/cloud/paas/data-safe/dsiad/datasafe_overview.html 
+- Deep Data Seucrity Guide: https://docs.oracle.com/en/database/oracle/oracle-database/26/dmksb/index.html
+- Develop Database-Enforced End-User Auth with Oracle AI Database Deep Data Security and Java: https://paul-parkinson.medium.com/develop-database-enforced-end-user-auth-with-oracle-ai-database-deep-data-security-and-java-5a845ba1ebfd
+- Deep Data Security in Action: Using Custom End User Security Context with OCI IAM: https://medium.com/@thomas.minne/deep-data-security-in-action-using-custom-end-user-security-context-with-oci-iam-144baa5802de
+- Securing Vector Search with Deep Data Security in Oracle AI Database: https://medium.com/@thomas.minne/securing-vector-search-with-deep-data-security-in-oracle-ai-database-c2fe0c4dd736
+- Getting Started with Oracle Deep Data Security: https://asktom.oracle.com/ords/r/tech/catalog/session-landing-page?p2_event_id=99038154271386107814270372953750955841&p2_source_log=QR
+- Launching node-oracledb 7.0: Rapid and Secure Data Management for the modern Oracle AI Database Developer: https://medium.com/@sharad-chandran/launching-node-oracledb-7-0-aad650374909
+- How to Enforce Role-Based Data Access in AI Applications with Oracle Deep Data Security: https://blogs.oracle.com/developers/how-to-enforce-role-based-data-access-in-ai-applications-with-oracle-deep-data-security
+- Database-Enforced Authorization for Agentic AI .NET Applications: https://medium.com/oracledevs/database-enforced-authorization-for-agentic-ai-net-applications-b383408453f6
+- Using Oracle AI Database Deep Data Security in Python Applications: https://medium.com/oracledevs/using-oracle-ai-database-deep-data-security-in-python-applications-bf84eb07f532
 
 ## Oracle LiveLabs
 
