@@ -47,6 +47,8 @@ If you'd like to ask your question privately, please email me at richard c evans
 - Using Oracle AI Database Deep Data Security in Python Applications: https://medium.com/oracledevs/using-oracle-ai-database-deep-data-security-in-python-applications-bf84eb07f532
 - Oracle AI Database JDBC Java API Reference: Release 26ai: https://docs.oracle.com/en/database/oracle/oracle-database/26/jajdb/oracle/jdbc/spi/EndUserSecurityContextProvider.html
 - Paul Parkinson's GitHub repository for Oracle Deep Data Security examples: https://github.com/paulparkinson/oracle-ai-for-sustainable-dev/tree/main/security
+- Configuring Microsoft Entra ID and the Oracle AI Database: https://docs.oracle.com/en/database/oracle/oracle-database/26/dbseg/authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata-data.html
+
 
 ## Oracle LiveLabs
 
