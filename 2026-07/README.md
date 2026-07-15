@@ -45,6 +45,8 @@ If you'd like to ask your question privately, please email me at richard c evans
 - How to Enforce Role-Based Data Access in AI Applications with Oracle Deep Data Security: https://blogs.oracle.com/developers/how-to-enforce-role-based-data-access-in-ai-applications-with-oracle-deep-data-security
 - Database-Enforced Authorization for Agentic AI .NET Applications: https://medium.com/oracledevs/database-enforced-authorization-for-agentic-ai-net-applications-b383408453f6
 - Using Oracle AI Database Deep Data Security in Python Applications: https://medium.com/oracledevs/using-oracle-ai-database-deep-data-security-in-python-applications-bf84eb07f532
+- Oracle AI Database JDBC Java API Reference: Release 26aihttps://docs.oracle.com/en/database/oracle/oracle-database/26/jajdb/oracle/jdbc/spi/EndUserSecurityContextProvider.html
+- 
 
 ## Oracle LiveLabs
 
