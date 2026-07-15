@@ -16,7 +16,7 @@ If you'd like to ask your question privately, please email me at richard c evans
 - Preparing for Post Quantum Cryptography: https://blogs.oracle.com/security/post-quantum-cryptography
 - You Can’t Modernize Database Cryptography You Can’t See – First Create a Crypto Inventory: https://blogs.oracle.com/database/cbom
 - Introducing Oracle Deep Data Security: Identity-Aware Data Access Control for Agentic AI in Oracle AI Database 26ai: https://blogs.oracle.com/database/introducing-oracle-deep-data-security-identity-aware-data-access-control-for-agentic-ai-in-oracle-ai-database-26ai
-- Oralce Database Security Primer (7th Edition) - https://download.oracle.com/database/oracle-database-security-primer.pdf
+- Oracle Database Security Primer (7th Edition) - https://download.oracle.com/database/oracle-database-security-primer.pdf
 
 ## Critical Patches and Updates
 
@@ -45,8 +45,8 @@ If you'd like to ask your question privately, please email me at richard c evans
 - How to Enforce Role-Based Data Access in AI Applications with Oracle Deep Data Security: https://blogs.oracle.com/developers/how-to-enforce-role-based-data-access-in-ai-applications-with-oracle-deep-data-security
 - Database-Enforced Authorization for Agentic AI .NET Applications: https://medium.com/oracledevs/database-enforced-authorization-for-agentic-ai-net-applications-b383408453f6
 - Using Oracle AI Database Deep Data Security in Python Applications: https://medium.com/oracledevs/using-oracle-ai-database-deep-data-security-in-python-applications-bf84eb07f532
-- Oracle AI Database JDBC Java API Reference: Release 26aihttps://docs.oracle.com/en/database/oracle/oracle-database/26/jajdb/oracle/jdbc/spi/EndUserSecurityContextProvider.html
-- 
+- Oracle AI Database JDBC Java API Reference: Release 26ai: https://docs.oracle.com/en/database/oracle/oracle-database/26/jajdb/oracle/jdbc/spi/EndUserSecurityContextProvider.html
+- Paul Parkinson's GitHub repository for Oracle Deep Data Security examples: https://github.com/paulparkinson/oracle-ai-for-sustainable-dev/tree/main/security
 
 ## Oracle LiveLabs
 
