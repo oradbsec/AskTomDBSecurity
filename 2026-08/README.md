@@ -10,6 +10,10 @@ This AskTOM session covers how Security Central helps you continuously assess ri
 - Recordings are posted to the [AskTOM Database Security Office Hours series](https://asktom.oracle.com/ords/r/tech/catalog/series-landing-page?p5_series_id=339825187736628088957543076199215576315).
 - To ask a question privately, email richard c evans _at_ that oracle company that makes amazing database software dot com.
 
+## Announcements
+
+- [View Patch Compliance in Oracle Data Safe](https://docs.oracle.com/en-us/iaas/data-safe/doc/view-patch-compliance.html)
+
 ## Presentation resources
 
 - [Oracle Database Security Central](https://www.oracle.com/security/database-security/database-security-central/)
