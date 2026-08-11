@@ -50,3 +50,4 @@ After the session, they will be posted to AskTom DB Security Office Hours: bit.l
 - Download Oracle 23c FREE from https://www.oracle.com/database/free/
 
 
+
