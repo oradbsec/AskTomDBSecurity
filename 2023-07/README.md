@@ -39,7 +39,7 @@ Oracle now offers monthly patching, Monthly Recommended Patches, please see Mike
 
 # Oracle Database 23c FREE Developer Release
 
-Get your hands on Oracle DB 23c FREE Developer Release to try out the new features and capability, visit Oracle.com/23cFREE
+Get your hands on Oracle DB 23c FREE Developer Release to try out the new features and capabilities, visit Oracle.com/23cFREE
 
 - Try out Oracle DB 23c FREE Developer Release SQL Firewall, demo script available here: https://github.com/oracle-samples/oracle-db-examples/tree/main/sql-firewall
 - Walk-through video available here: https://youtu.be/cnw5AB9_Z9k
