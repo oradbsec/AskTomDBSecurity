@@ -27,7 +27,7 @@ Learn more at https://www.oracle.com/security/database-security/data-safe/
 - Masking policy synchronization
 - User profile insights
 - Target paid usage override
-- Custom listener prots for ExadataC@C databases
+- Custom listener ports for ExadataC@C databases
 
 Tier Data Safe pricing for on-premises and on-compute databases available at https://www.oracle.com/cloud/price-list/#data-safe
 
@@ -46,7 +46,7 @@ Notes related to this month's topic, include:
 
 # Oracle Database 23c Beta
 
-To appyl to the 23c beta program, visit https://tinyurl.com/OracleBeta
+To apply to the 23c beta program, visit https://tinyurl.com/OracleBeta
 
 # Oracle Database 23c FREE Developer Release
 
