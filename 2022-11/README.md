@@ -1,7 +1,7 @@
 # Oracle Key Vault 21.5 
 # new features and updates
 
-### I have a question I don't want to ask in the pubic forum. 
+### I have a question I don't want to ask in the public forum. 
 
 If you'd like to ask your question privately, please email me at richard c evans _at_ oracle 
 
@@ -37,7 +37,7 @@ Doc ID 2310066.1: Oracle TDE Support With 3rd Party HSM Vendors
 
 ## Oracle 23c App Simple
 
-- Recruitment has opened for participation in the forthcoming Oracle Database 23c beta program. Customers and partners interested in participating in the Oracle Database 23c beta program are encouraged to submit ther recruitment form as soon as possible. https://blogs.oracle.com/database/post/oracle-database-23c-beta-program
+- Recruitment has opened for participation in the forthcoming Oracle Database 23c beta program. Customers and partners interested in participating in the Oracle Database 23c beta program are encouraged to submit their recruitment form as soon as possible. https://blogs.oracle.com/database/post/oracle-database-23c-beta-program
 
 ## Next steps to learn more about Oracle Key Vault 
 
