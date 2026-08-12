@@ -2,7 +2,7 @@
 
 ## Extend your Oracle Data Safe capability to Amazon RDS for Oracle
 
-Oracle Data Safe is the OCI cloud service providing an integrated set of essential security services for Oracle Databases both in the cloud and on-premises. Join us for August's DB Security Office Hours where we will be introducing Data Safe's support for Amazon RDS for Oracle Database. Database Security product managers will demonstrate Oracle Data Safe ability to monitor Amazon RDS for Oracle Databases and answer any questions you have regarding this exciting new capability or existing Oracle Data Safe capabilities.
+Oracle Data Safe is the OCI cloud service providing an integrated set of essential security services for Oracle Databases both in the cloud and on-premises. Join us for August's DB Security Office Hours where we will be introducing Data Safe's support for Amazon RDS for Oracle Database. Database Security product managers will demonstrate Oracle Data Safe's ability to monitor Amazon RDS for Oracle Databases and answer any questions you have regarding this exciting new capability or existing Oracle Data Safe capabilities.
 
 # 
 # Oracle Database Release Updates
@@ -34,7 +34,7 @@ Oracle now offers monthly patching, Monthly Recommended Patches, please see Mike
   
 # Oracle Database 23c FREE Developer Release
 
-Get your hands on Oracle DB 23c FREE Developer Release to try out the new features and capability, visit Oracle.com/23cFREE
+Get your hands on Oracle DB 23c FREE Developer Release to try out the new features and capabilities, visit Oracle.com/23cFREE
 
 - Try out Oracle DB 23c FREE Developer Release SQL Firewall, demo script available here: https://github.com/oracle-samples/oracle-db-examples/tree/main/sql-firewall
 - Walk-through video available here: https://youtu.be/cnw5AB9_Z9k
