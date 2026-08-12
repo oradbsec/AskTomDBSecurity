@@ -1,5 +1,5 @@
 # Back to Basics - database roles
-## I have a question I don't want to ask in the pubic forum. 
+## I have a question I don't want to ask in the public forum. 
 
 If you'd like to ask your question privately, please email me at richard c evans at oracle
 
