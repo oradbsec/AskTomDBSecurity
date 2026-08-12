@@ -2,7 +2,7 @@
 # Oracle Database Security Assessment Tool (DBSAT) v3.0
 # new features and updates
 
-### I have a question I don't want to ask in the pubic forum. 
+### I have a question I don't want to ask in the public forum. 
 
 If you'd like to ask your question privately, please email me at richard c evans _at_ that oracle company that makes amazing database software dot com 
 
