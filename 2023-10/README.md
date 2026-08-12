@@ -1,7 +1,7 @@
 # Oracle Key Vault 21.7 
 # new features and updates
 
-### I have a question I don't want to ask in the pubic forum. 
+### I have a question I don't want to ask in the public forum. 
 
 If you'd like to ask your question privately, please email me at richard c evans _at_ oracle 
 
