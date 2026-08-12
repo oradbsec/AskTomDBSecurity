@@ -55,8 +55,8 @@ Navigate to https://apex.oracle.com/database-features
 
 Available at https://developer.oracle.com/livelabs
 
-Excited to annnounce a new LiveLab, Securing a legacy application using Oracle Database Vault on Oracle Autonomous Database
-Take a migrating n-premises application to Oracle Autonomous Database and secure it with Oracle Database Vault. 
+Excited to announce a new LiveLab, Securing a legacy application using Oracle Database Vault on Oracle Autonomous Database
+Migrate an on-premises application to Oracle Autonomous Database and secure it with Oracle Database Vault. 
 
 Available at https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/view-workshop?wid=3530
 
