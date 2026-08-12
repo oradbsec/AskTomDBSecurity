@@ -2,7 +2,7 @@
 # Oracle Database and Azure Active Directory integration
 
 
-## I have a question I don't want to ask in the pubic forum. 
+## I have a question I don't want to ask in the public forum. 
 
 If you'd like to ask your question privately, please email me at richard c evans at oracle
 
@@ -55,4 +55,4 @@ Join us for our database-security related sessions! More information to follow.
 
 Get Azure AD tokens by using the Microsoft Authentication Library: https://docs.microsoft.com/en-us/azure/databricks/dev-tools/api/latest/aad/app-aad-token
 
-Java Web Token Debugger: jwt.io
+JSON Web Token (JWT) Debugger: jwt.io
