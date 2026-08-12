@@ -2,7 +2,7 @@
 
 
 # Oracle Database Release Updates
-Oracle quarterly patches were released on 25 April 2023 (rev 2), not patches will come out around 18 July 2023. 
+Oracle quarterly patches were released on 25 April 2023 (rev 2), and the next patches will come out around 18 July 2023. 
 - Primary Note for DB Proactive Patch Program (Doc ID 888.1)
 - Oracle DB 19c Recommended One-off Patches (Doc ID 555.1)
 
@@ -32,7 +32,7 @@ Oracle Key Vault videos
 
 # Oracle Database 23c FREE Developer Release
 
-Get your hands on Oracle DB 23c FREE Developer Release to try out the new features and capability, visit Oracle.com/23cFREE
+Get your hands on Oracle DB 23c FREE Developer Release to try out the new features and capabilities, visit Oracle.com/23cFREE
 
 - Try out Oracle DB 23c FREE Developer Release SQL Firewall, demo script available here: https://github.com/oracle-samples/oracle-db-examples/tree/main/sql-firewall
 - Walk-through video available here: https://youtu.be/cnw5AB9_Z9k
